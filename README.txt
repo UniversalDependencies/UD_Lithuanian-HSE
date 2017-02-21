@@ -8,4 +8,7 @@ Contributors: Lyashevskaya, Olga
 Contact: olesar@yandex.ru
 ===============================================================================
 
-Lithuanian data.
+# Lithuanian treebank
+
+Annotated manually using the Morphological Annotator by CCL, Vytautas Magnus University (http://tekstynas.vdu.lt/).
+A pilot version which includes news and an essay by Tomas Venclova is available here.
