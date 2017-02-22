@@ -103,7 +103,7 @@
 11	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	10	cop	_	En=be
 12	tautos	tauta	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nsubj	_	En=nation
 13	ar	ar	CCONJ	CC	_	17	cc	_	En=or
-14	bent	bent	PART	UH	_	17	advmod	_	En=at least
+14	bent	bent	PART	UH	_	17	advmod	_	En=at_least
 15	tautos	tauta	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	En=nation
 16	intelektualų	intelektualas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	En=intellectual
 17	dauguma	dauguma	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	En=majority|SpaceAfter=No
@@ -146,7 +146,7 @@
 14	,	,	PUNCT	PUNCT	_	17	punct	_	En=,
 15	bet	bet	CCONJ	CC	_	17	cc	_	En=but
 16	jūs	tu	PRON	PRP	Case=Nom|Number=Plur|Person=2	17	nsubj	_	En=you
-17	netolerantiški	netolerantiškas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	12	conj	_	En=no tolerant
+17	netolerantiški	netolerantiškas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	12	conj	_	En=no_tolerant
 18	mums	mes	PRON	PRP	Case=Dat|Number=Plur|Person=1	17	iobj	_	En=we|SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	22	punct	_	En=,
 20	tikriesiems	tikras	ADJ	JJL	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	22	amod	_	En=probably
@@ -254,7 +254,7 @@
 2	diskutuoti	diskutuoti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	1	xcomp	_	En=
 3	(	(	PUNCT	PUNCT	_	5	punct	_	En=(|SpaceAfter=No
 4	mes	mes	PRON	PRP	Case=Nom|Number=Plur|Person=1	5	nsubj	_	En=we
-5	neslėpsim	slėpti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	En=not hide|SpaceAfter=No
+5	neslėpsim	slėpti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	En=not_hide|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
 7	kad	kad	SCONJ	UH	_	10	mark	_	En=that
 8	tavo	tavo	DET	PRP$	_	9	det	_	En=your
@@ -375,7 +375,7 @@
 7	lėktuvo	lėktuvas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	En=airplane
 8	Tu-154	tu-154	PROPN	NNP	Case=Nom|Number=Sing	7	flat	_	En=Tu-154
 9	katastrofos	katastrofa	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	obj	_	En=catastrophy
-10	narpliojantys	narplioti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	En=search for
+10	narpliojantys	narplioti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	En=search_for
 11	tyrėjai	tyrėjas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	En=investigator
 12	analizuoja	analizuoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	0	root	_	En=analize
 13	įvairius	įvairus	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	19	amod	_	En=various
@@ -397,7 +397,7 @@
 
 # sent_id = lt-ru-5-p2-3
 # text = Nedaugelis žino, jog paskutinius žodžius įrašė Vilniuje veikusioje gamykloje pagaminti prietaisai.
-1	Nedaugelis	nedaugelis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	2	nsubj	_	En=not many
+1	Nedaugelis	nedaugelis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	2	nsubj	_	En=not_many
 2	žino	žinoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	0	root	_	En=know|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	7	punct	_	En=,
 4	jog	jog	SCONJ	UH	_	7	mark	_	En=that
@@ -427,7 +427,7 @@
 11	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
 12	–	–	PUNCT	PUNCT	_	2	punct	_	En=_
 13	tokie	toks	PRON	DT	Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	En=such
-14	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	13	cop	_	En=there is no
+14	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	13	cop	_	En=there_is_no
 15	paskutiniai	paskutinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	En=last
 16	lėktuvo	lėktuvas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	En=airplane
 17	Tu-154	tu-154	PROPN	NNP	Case=Nom|Number=Sing	16	flat	_	En=Tu-154
@@ -459,7 +459,7 @@
 10	92	92	NUM	CD	_	11	nummod	_	En=92
 11	žmones	žmogus	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	En=person|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
-13	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	14	cop	_	En=there is no
+13	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	14	cop	_	En=there_is_no
 14	trys	trys	NUM	CD	Case=Nom|Gender=Masc	0	root	_	En=three|SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	14	punct	_	En=.
 
@@ -471,7 +471,7 @@
 4	Juodosios	juodas	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	En=black
 5	jūros	jūra	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	En=sea
 6	dugno	dugnas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	En=bed
-7	ištraukę	ištraukyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	0	root	_	En=pull out
+7	ištraukę	ištraukyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	0	root	_	En=pull_out
 8	tyrėjai	tyrėjas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	En=investigator
 9	duomenis	duomuo	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	En=data
 10	analizuoja	analizuoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	7	conj	_	En=analize
@@ -496,7 +496,7 @@
 10	nustatyti	nustatyti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	15	xcomp	_	En=
 11	katastrofos	katastrofa	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	En=catastrophy
 12	priežastis	priežastis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	En=reason
-13	būna	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	15	aux	_	En=there is
+13	būna	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	15	aux	_	En=there_is
 14	ypač	ypač	ADV	RB	Degree=Pos|Polarity=Pos	15	advmod	_	En=especially
 15	sunku	sunkus	ADJ	PRED	Definite=Ind|Degree=Pos|Gender=Neut|Polarity=Pos	0	root	_	En=difficult|SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	15	punct	_	En=.
@@ -538,11 +538,11 @@
 # sent_id = lt-ru-5-p4-9
 # text = O ištraukti nepažeistus – dar sunkiau.
 1	O	o	CCONJ	CC	_	6	cc	_	En=and
-2	ištraukti	ištraukti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	6	xcomp	_	En=pull out
+2	ištraukti	ištraukti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	6	xcomp	_	En=pull_out
 3	nepažeistus	nepažeisti	VERB	VBNL	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	En=
 4	–	–	PUNCT	PUNCT	_	6	punct	_	En=_
 5	dar	dar	ADV	RB	Degree=Pos|Polarity=Pos	6	advmod	_	En=yet
-6	sunkiau	sunkiai	ADV	RBR	Degree=Cmp|Polarity=Pos	0	root	_	En=with difficulty|SpaceAfter=No
+6	sunkiau	sunkiai	ADV	RBR	Degree=Cmp|Polarity=Pos	0	root	_	En=with_difficulty|SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	En=.
 
 # newpar id = lt-ru-5-p5
@@ -552,19 +552,19 @@
 2	dėlto	vis%dėlto	CCONJ	CC	_	3	cc	_	En=however
 3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	22	nsubj	_	En=Russia
 4	narai	naras	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	En=diver
-5	ne	ne%tik	CCONJ	CC	_	3	cc	_	En=not only
-6	tik	ne%tik	PART	UH	_	3	cc	_	En=not only
-7	ištraukė	ištraukti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	0	root	_	En=pull out
+5	ne	ne%tik	CCONJ	CC	_	3	cc	_	En=not_only
+6	tik	ne%tik	PART	UH	_	3	cc	_	En=not_only
+7	ištraukė	ištraukti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	0	root	_	En=pull_out
 8	tik	tik	ADV	RB	Degree=Pos|Polarity=Pos	10	advmod	_	En=only
-9	kiek	kiek	ADV	RB	Degree=Pos|Polarity=Pos	10	advmod	_	En=how much
-10	aplamdytą	aplamdyti	VERB	VBNL	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	14	xcomp	_	En=press down
+9	kiek	kiek	ADV	RB	Degree=Pos|Polarity=Pos	10	advmod	_	En=how_much
+10	aplamdytą	aplamdyti	VERB	VBNL	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	14	xcomp	_	En=press_down
 11	savirašį	savirašis	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	14	amod	_	En=self-writing
 12	MARS	MARS	PROPN	NNP	_	14	compound	_	En=MARS
 13	BM	BM	PROPN	NNP	_	14	compound	_	En=BM
 14	prietaisą	prietaisas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	En=device|SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	22	punct	_	En=,
-16	bet	bet%ir	CCONJ	CC	_	22	cc	_	En=but also
-17	ir	bet%ir	CCONJ	CC	_	16	fixed	_	En=but also
+16	bet	bet%ir	CCONJ	CC	_	22	cc	_	En=but_also
+17	ir	bet%ir	CCONJ	CC	_	16	fixed	_	En=but_also
 18	atidarę	atidaryti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	22	advcl	_	En=open
 19	apsauginę	apsauginis	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	amod	_	En=protective
 20	kapsulę	kapsulė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	En=capsule
@@ -584,15 +584,15 @@
 6	lėktuvas	lėktuvas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	En=airplane
 7	pagamintas	pagaminti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	En=manufacture
 8	gūdžiais	gūdus	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	11	amod	_	En=
-9	Sovietų	sovietas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	En=the Soviets
+9	Sovietų	sovietas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	En=the_Soviets
 10	sąjungos	sąjunga	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	En=union
 11	laikais	laikas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	6	obl	_	En=time|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	17	punct	_	En=,
 13	dar	dar	ADV	RB	Degree=Pos|Polarity=Pos	17	advmod	_	En=yet
-14	praėjusio	praeiti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	15	amod	_	En=be over
+14	praėjusio	praeiti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	15	amod	_	En=be_over
 15	amžiaus	amžius	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	En=century
 16	9-jame	9-jis	ADJ	ORD	Case=Loc|Definite=Ind|Gender=Masc|Number=Sing	17	amod	_	En=90-ies
-17	dešimtmetyje	dešimtmetis	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	11	appos	_	En=20th century|SpaceAfter=No
+17	dešimtmetyje	dešimtmetis	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	11	appos	_	En=20th_century|SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	7	punct	_	En=.
 
 # newpar id = lt-ru-5-p6
@@ -606,7 +606,7 @@
 # sent_id = lt-ru-5-p7-13
 # text = Tačiau nedaugelis šiandien žino, kad tais laikais tokius juostinius bei kasetinius magnetofonus, dedamus į ryškia oranžine arba raudona spalva nudažytas kapsules, gamino tiktai Vilniuje.
 1	Tačiau	tačiau	CCONJ	CC	_	4	cc	_	En=however
-2	nedaugelis	nedaugelis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	4	nsubj	_	En=not many
+2	nedaugelis	nedaugelis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg	4	nsubj	_	En=not_many
 3	šiandien	šiandien	ADV	RB	Degree=Pos|Polarity=Pos	4	advmod	_	En=today
 4	žino	žinoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	0	root	_	En=know|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	En=,
@@ -814,9 +814,9 @@
 6	teko	tekti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	16	ccomp	_	En=need
 7	susidurti	susidurti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	6	xcomp	_	En=confront|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	7	punct	_	En=,
-9	juk	juk	PART	UH	_	12	advmod	_	En=after all
+9	juk	juk	PART	UH	_	12	advmod	_	En=after_all
 10	jie	jis	PRON	PRP	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	En=he
-11	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	12	cop	_	En=there is no
+11	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	12	cop	_	En=there_is_no
 12	viršininkai	viršininkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	En=|SpaceAfter=No
 13	“	“	PUNCT	PUNCT	_	6	punct	_	En=“|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	6	punct	_	En=,
@@ -858,12 +858,12 @@
 8	adrese	adresas	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	En=address|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	12	punct	_	En=,
 10	kuris	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	En=which
-11	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	12	aux	_	En=there is no
+11	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	12	aux	_	En=there_is_no
 12	žinomas	žinoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	En=know
 13	įvairiais	įvairus	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	14	amod	_	En=various
 14	pavadinimais	pavadinimas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	12	obl	_	En=names|SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
-16	pavyzdžiui	pavyzdys	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	parataxis	_	En=for example|SpaceAfter=No
+16	pavyzdžiui	pavyzdys	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	parataxis	_	En=for_example|SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
 18	„	„	PUNCT	PUNCT	_	20	punct	_	En=„|SpaceAfter=No
 19	Pašto	paštas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	En=post
@@ -881,8 +881,8 @@
 # sent_id = lt-ru-5-p11-24
 # text = Pirmasis Sovietų kariuomenės reikmėms skirtas vielinis magnetofonas „MN-61“ pradėtas gaminti būtent „Vilmoje“ dar 1961 m.
 1	Pirmasis	pirmas	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	advmod	_	En=first
-2	Sovietų	sovietas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	En=the Soviets
-3	kariuomenės	kariuomenė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	En=military forces
+2	Sovietų	sovietas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	En=the_Soviets
+3	kariuomenės	kariuomenė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	En=military_forces
 4	reikmėms	reikmė	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	En=requirement
 5	skirtas	skirti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	En=assign
 6	vielinis	vielinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	En=
@@ -904,7 +904,7 @@
 # newpar id = lt-ru-5-p12
 # sent_id = lt-ru-5-p12-25
 # text = Anot kito gamykloje dirbusio lietuvio, Romualdo Beniušio, vėliau pradėti gaminti ir magnetofonai prietaisams MARS BM, kuriuos kruopščiai tikrindavo saugumiečiai.
-1	Anot	anot	ADP	UH	_	5	case	_	En=according to
+1	Anot	anot	ADP	UH	_	5	case	_	En=according_to
 2	kito	kitas	ADJ	JJL	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	En=other
 3	gamykloje	gamykla	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	En=factory
 4	dirbusio	dirbti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	5	acl	_	En=work
@@ -972,7 +972,7 @@
 1	Jo	jis	PRON	PRP	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	amod	_	En=he
 2	teigimu	teigimas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	13	parataxis	_	En=assertion|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
-4	kaip	kaip	SCONJ	UH	_	9	mark	_	En=just as
+4	kaip	kaip	SCONJ	UH	_	9	mark	_	En=just_as
 5	ir	ir	PART	UH	_	9	advmod	_	En=and
 6	kiti	kitas	ADJ	JJL	Case=Nom|Gender=Masc|Number=Plur	9	amod	_	En=other
 7	panašūs	panašus	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	_	En=similar
@@ -1052,8 +1052,8 @@
 13	pokalbių	pokalbis	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	En=conversation
 14	sekundžių	sekundė	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	En=second
 15	–	–	PUNCT	PUNCT	_	20	punct	_	En=_
-16	iki	iki%tol	ADV	RB	Degree=Pos	20	advmod	_	En=before that
-17	tol	iki%tol	ADV	RB	Degree=Pos	16	fixed	_	En=before that
+16	iki	iki%tol	ADV	RB	Degree=Pos	20	advmod	_	En=before_that
+17	tol	iki%tol	ADV	RB	Degree=Pos	16	fixed	_	En=before_that
 18	kilęs	kilti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=PastSimp|Variant=Short|VerbForm=Part|Voice=Act	19	amod	_	En=rise
 19	lėktuvas	lėktuvas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	En=airplane
 20	nepatyrė	patirti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=PastSimp	8	parataxis	_	En=experience
@@ -1070,7 +1070,7 @@
 31	tyrėjams	tyrėjas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	33	iobj	_	En=investigator
 32	užuominas	užuomina	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	33	obj	_	En=indication
 33	suteikė	suteikti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	En=provide
-34	būtent	būtent	PART	UH	_	36	advmod	_	En=in particular
+34	būtent	būtent	PART	UH	_	36	advmod	_	En=in_particular
 35	pilotų	pilotas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	En=pilot
 36	pokalbiai	pokalbis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	En=conversation|SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	5	punct	_	En=.
@@ -1114,7 +1114,7 @@
 4	kabinos	kabina	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	En=cabin
 5	įrašuose	įrašas	NOUN	NN	Case=Loc|Gender=Masc|Number=Plur	12	obl	_	En=record|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
-7	anot	anot	ADP	UH	_	10	case	_	En=according to
+7	anot	anot	ADP	UH	_	10	case	_	En=according_to
 8	jų	jis	PRON	PRP	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	10	amod	_	En=he
 9	klausiusių	klausyti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	10	amod	_	En=listen
 10	ekspertų	ekspertas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	parataxis	_	En=expert|SpaceAfter=No
@@ -1143,11 +1143,11 @@
 5	MARS	MARS	PROPN	NNP	_	7	nmod	_	En=MARS
 6	BM	BM	PROPN	NNP	_	5	flat	_	En=BM
 7	mikrofonų	mikrofonas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	En=microphone
-8	užtenka	užtekti	VERB	VBC	Mood=Ind|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	0	root	_	En=be enought|SpaceAfter=No
+8	užtenka	užtekti	VERB	VBC	Mood=Ind|Person=3|Polarity=Pos|Reflex=No|Tense=Pres	0	root	_	En=be_enought|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
 10	mat	mat	PART	UH	_	19	mark	_	En=because|SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
-12	anot	anot	ADP	UH	_	13	case	_	En=according to
+12	anot	anot	ADP	UH	_	13	case	_	En=according_to
 13	R.	r.	PROPN	NNP	_	19	parataxis	_	En=R.
 14	Beniušio	Beniušis	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	13	flat	_	En=Beniušio|SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
@@ -1173,7 +1173,7 @@
 1	Tiesa	tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	En=truth|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	paklausūs	paklausus	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	1	amod	_	En=
-4	buvo	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	0	root	_	En=there is no
+4	buvo	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	0	root	_	En=there_is_no
 5	ir	ir	CCONJ	CC	_	4	cc	_	En=and
 6	įprasti	įprasti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	4	conj	_	En=used
 7	magnetofonai	magnetofonas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	appos	_	En=player|SpaceAfter=No
@@ -1199,8 +1199,8 @@
 6	“	“	PUNCT	PUNCT	_	5	punct	_	En=“
 7	tragedijos	tragedija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	En=tragedy
 8	priežastys	priežastis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	En=reason
-9	iki	iki%šiol	ADV	RB	Degree=Pos|Polarity=Pos	11	advmod	_	En=up to now
-10	šiol	iki%šiol	ADV	RB	Degree=Pos	11	advmod	_	En=up to now
+9	iki	iki%šiol	ADV	RB	Degree=Pos|Polarity=Pos	11	advmod	_	En=up_to_now
+10	šiol	iki%šiol	ADV	RB	Degree=Pos	11	advmod	_	En=up_to_now
 11	neįvardytos	įvardyti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	En=named|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	11	punct	_	En=,
 13	realiausia	realus	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	14	amod	_	En=real
@@ -1217,7 +1217,7 @@
 3	duomenimis	duomuo	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	En=data|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 5	tinkamai	tinkamai	ADV	RB	Degree=Pos|Polarity=Pos	6	advmod	_	En=properly
-6	nesuveikė	suveikti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=No|Tense=PastSimp	0	root	_	En=co-operate, behave
+6	nesuveikė	suveikti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=No|Tense=PastSimp	0	root	_	En=co-operate,_behave
 7	užsparniai	užsparnis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	En=zakrylki
 8	–	–	PUNCT	PUNCT	_	7	punct	_	En=_
 9	juos	jis	PRON	PRP	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	En=they
