@@ -4,9 +4,12 @@ udapy -h >/dev/null || { echo "udapy is not installed, see https://github.com/ud
 
 L=lt
 
+#util.Eval node='if node.lemma[0].isupper() and node.upos=="NOUN": node.upos="PROPN"' \
+
 for a in train dev test; do
     cat $L-ud-$a.conllu | sed 's/newpar_id/newpar id/' | udapy -s \
       util.Eval node='node.misc = "En=" + str(node.misc)[:-2].replace(" ", "_")' \
+      util.Eval node='if node.lemma[0].isupper() and (node.form[0].islower() or (node.ord==1 and node.upos!="PROPN" and node.misc["En"][0].islower())): node.lemma=node.lemma.lower()' \
       util.Eval node='if node.feats["Degree"]=="Pos" and node.upos not in ("ADJ", "ADV"): del node.feats["Degree"]' \
       ud.FixPunctChild \
       ud.SetSpaceAfterFromText \

@@ -86,7 +86,7 @@
 # newpar id = 148
 # sent_id = 148
 # text = Kada Vilnija grįžo Lietuvai, daugelis tenykščių gyventojų dar nesunkiai galėjo pakrypti Lietuvos pusėn.
-1	Kada	Kada	ADV	RB	Degree=Pos	3	advmod	_	En=when
+1	Kada	kada	ADV	RB	Degree=Pos	3	advmod	_	En=when
 2	Vilnija	Vilnija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	En=Vilnija
 3	grįžo	grįžti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	En=go
 4	Lietuvai	Lietuva	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	En=Lithuania|SpaceAfter=No
@@ -184,7 +184,7 @@
 # newpar id = 153
 # sent_id = 153
 # text = Tačiau jau 1939 metais prasidėjo įkyrus ir beatodairiškas krašto lietuvinimas, visiškai neatsižvelgiąs į jo ypatingumus, į sudėtingas ir ne tokias sudėtingas sąmonės formas.
-1	Tačiau	Tačiau	CCONJ	CC	_	5	cc	_	En=however
+1	Tačiau	tačiau	CCONJ	CC	_	5	cc	_	En=however
 2	jau	jau	PART	UH	_	4	advmod	_	En=already
 3	1939	1939	ADJ	ORD	_	4	amod	_	En=1939
 4	metais	metai	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	En=years
@@ -275,7 +275,7 @@
 # newpar id = 157
 # sent_id = 157
 # text = Dabar, ko gero, daug sunkiau užgesinti priešiškumą, negu anuomet.
-1	Dabar	Dabar	ADV	RB	Degree=Pos	8	advmod	_	En=now|SpaceAfter=No
+1	Dabar	dabar	ADV	RB	Degree=Pos	8	advmod	_	En=now|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	ko	ko	PART	UH	_	8	advmod	_	En=what
 4	gero	geras	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	fixed	_	En=good|SpaceAfter=No
@@ -292,7 +292,7 @@
 # newpar id = 158
 # sent_id = 158
 # text = Vienintelis dalykas, kurį galiu rekomenduoti – nepilkime benzino į ugnį.
-1	Vienintelis	Vienintelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	En=alone
+1	Vienintelis	vienintelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	En=alone
 2	dalykas	dalykas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	En=thing|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	En=,
 4	kurį	kuris	PRON	WPA	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	En=which
@@ -308,7 +308,7 @@
 # newpar id = 159
 # sent_id = 159
 # text = Ne vienas mūsų politikas laiko lenkus ir kitas etnines mažumas nelojaliomis ex definitione, o jau jų bendruomenių vadovus – paprasčiausia penktąja kolona.
-1	Ne	Ne	PART	UH	Polarity=Neg	2	advmod	_	En=not
+1	Ne	ne	PART	UH	Polarity=Neg	2	advmod	_	En=not
 2	vienas	vienas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	En=one
 3	mūsų	mūsų	DET	PRP$	_	4	det	_	En=our
 4	politikas	politikas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	En=
@@ -336,7 +336,7 @@
 # newpar id = 160
 # sent_id = 160
 # text = Net jeigu laikysimės tokio požiūrio – kuris man atrodo klaidingas, - valstybės interesas yra penktąją koloną ne didinti, o mažinti; ne stumti kitataučius nuo savęs, nuolat juos puldinėt, pabrėžti jų priešiškumą ir demaskuoti jų kėslus, o priešingai, juos prie savęs įvairiais protingais būdais – taip pat nuolaidomis – pritraukti.
-1	Net	Net	PART	UH	_	2	advmod	_	En=even
+1	Net	net	PART	UH	_	2	advmod	_	En=even
 2	jeigu	jeigu	SCONJ	UH	_	3	mark	_	En=if
 3	laikysimės	laikytis	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=Yes|Tense=Fut|VerbForm=Fin|Voice=Act	14	advcl	_	En=keep
 4	tokio	toks	DET	DT	Case=Gen|Gender=Masc|Number=Sing	5	det	_	En=such
@@ -408,7 +408,7 @@
 # newpar id = 162
 # sent_id = 162
 # text = Ir toliau pykstama ant Efraimo Zuroffo, bandoma pagrįsti „dvigubo genocido“ teorija, ir reikalaujama: „Nedrįskite mūsų vadinti žydšaudžių tauta“.
-1	Ir	Ir	CCONJ	CC	_	3	cc	_	En=and
+1	Ir	ir	CCONJ	CC	_	3	cc	_	En=and
 2	toliau	toli	ADV	RBR	Degree=Cmp	3	advmod	_	En=further
 3	pykstama	pykti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	En=get_angry
 4	ant	ant	ADP	UH	_	5	case	_	En=on
@@ -438,7 +438,7 @@
 # newpar id = 163
 # sent_id = 163
 # text = Be abejonės, lietuviai nėra žydšaudžių tauta.
-1	Be	Be	ADP	UH	_	2	case	_	En=without
+1	Be	be	ADP	UH	_	2	case	_	En=without
 2	abejonės	abejonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	parataxis	_	En=doubts|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
 4	lietuviai	lietuvis	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	En=Lithianian
@@ -450,7 +450,7 @@
 # newpar id = 164
 # sent_id = 164
 # text = Bet, deja, pastarųjų metų praktika duoda pagrindo vadinti lietuvius žydšaudžių advokatų tauta.
-1	Bet	Bet	CCONJ	CC	_	8	cc	_	En=but|SpaceAfter=No
+1	Bet	bet	CCONJ	CC	_	8	cc	_	En=but|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	deja	deja	INTJ	UH	_	8	parataxis	_	En=unfortunately|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
@@ -469,7 +469,7 @@
 # newpar id = 165
 # sent_id = 165
 # text = Kad ir ką manytum, apie Efraimą Zuroffą, jo teisybė, kada jis sako, jog lietuviai, skirtingai negu kroatai, nenuteisė nė vieno žydšaudžio.
-1	Kad	Kad	SCONJ	UH	_	4	mark	_	En=that
+1	Kad	kad	SCONJ	UH	_	4	mark	_	En=that
 2	ir	ir	CCONJ	CC	_	1	fixed	_	En=and
 3	ką	kas	PRON	WDT	Case=Acc	1	fixed	_	En=what
 4	manytum	manyti	VERB	VBC	Mood=Cnd|Number=Sing|Person=2|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	11	advcl	_	En=think|SpaceAfter=No
@@ -501,7 +501,7 @@
 # newpar id = 166
 # sent_id = 166
 # text = Priešingai, visuomenės ir teismų neartikuliuotas, bet aiškiai juntamas nusiteikimas buvo, kad visas tokias bylas pridera tyliai sabotuoti.
-1	Priešingai	Priešingai	ADV	RB	Degree=Pos	11	advmod	_	En=contrary_to|SpaceAfter=No
+1	Priešingai	priešingai	ADV	RB	Degree=Pos	11	advmod	_	En=contrary_to|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	visuomenės	visuomenė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nsubj	_	En=society
 4	ir	ir	CCONJ	CC	_	5	cc	_	En=and
@@ -698,7 +698,7 @@
 # newpar id = 174
 # sent_id = 174
 # text = Jei leistinas „alternatyvinės istorijos“ eksperimentas – įsivaizduokime, kad Lietuvą 1944 metas išvaduoja Vakarų sąjungininkai, ir į ją grįžta Stasys Lozoraitis, tuo metu nominalus valstybės galva.
-1	Jei	Jei	SCONJ	UH	_	9	mark	_	En=if
+1	Jei	jei	SCONJ	UH	_	9	mark	_	En=if
 2	leistinas	leisti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Part|Voice=Necess	9	advcl	_	En=
 3	„	„	PUNCT	PUNCT	_	5	punct	_	En=„|SpaceAfter=No
 4	alternatyvinės	alternatyvinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	En=alternative
@@ -733,7 +733,7 @@
 # newpar id = 175
 # sent_id = 175
 # text = Be abejonės, tada būtų tekę (kad ir nenoromis) surengti Laikinosios vyriausybės procesą, kaip Prancūzijoje buvo surengtas Pétaine‘o procesas.
-1	Be	Be	ADP	UH	_	2	case	_	En=without
+1	Be	be	ADP	UH	_	2	case	_	En=without
 2	abejonės	abejonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	En=doubts|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
 4	tada	tada	ADV	RB	Degree=Pos	6	advmod	_	En=then
@@ -787,7 +787,7 @@
 # newpar id = 177
 # sent_id = 177
 # text = Kai kurie Laikinosios vyriausybės nariai gali būti išteisinti, bet tikrai nė vienas jų nebūtų gavęs ordino ir nebūtų paskelbtas tautos patriarchu.
-1	Kai	Kai	ADV	RB	Degree=Pos	2	advmod	_	En=when
+1	Kai	kai	ADV	RB	Degree=Pos	2	advmod	_	En=when
 2	kurie	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	En=which
 3	Laikinosios	laikinas	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	En=temporary
 4	vyriausybės	vyriausybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	En=government
@@ -890,7 +890,7 @@
 # newpar id = 181
 # sent_id = 181
 # text = Kitaip jis visada generuos įtampą ir trintį, ne tik prieštaraujančią sveikam protui, bet ir žalingą Lietuvos valstybės interesui..
-1	Kitaip	Kitaip	ADV	RB	Degree=Pos	4	advmod	_	En=otherwise
+1	Kitaip	kitaip	ADV	RB	Degree=Pos	4	advmod	_	En=otherwise
 2	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	En=he
 3	visada	visada	ADV	RB	Degree=Pos	4	advmod	_	En=always
 4	generuos	generuoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	En=
@@ -935,7 +935,7 @@
 # newpar id = 183
 # sent_id = 183
 # text = Bet čia nereikia perlenkti lazdos, nedera užmiršti, kad reikalai gali pasisukti ir kitaip.
-1	Bet	Bet	CCONJ	CC	_	3	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	3	cc	_	En=but
 2	čia	čia	ADV	RB	Degree=Pos	3	advmod	_	En=here
 3	nereikia	reikėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=need
 4	perlenkti	perlenkti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	3	xcomp	_	En=
@@ -986,7 +986,7 @@
 # newpar id = 185
 # sent_id = 185
 # text = Pasak jų peršamo mentaliteto, Rusijos interesai visada priešiški Lietuvos interesams, ir kitaip negali būti.
-1	Pasak	Pasak	ADP	UH	_	4	case	_	En=according_to
+1	Pasak	pasak	ADP	UH	_	4	case	_	En=according_to
 2	jų	jų	PRON	PRP	Case=Gen	3	obl:agent	_	En=their
 3	peršamo	piršti	VERB	VBC	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	4	nmod	_	En=
 4	mentaliteto	mentalitetas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	parataxis	_	En=mentality|SpaceAfter=No
@@ -1040,7 +1040,7 @@
 # newpar id = 187
 # sent_id = 187
 # text = Bet kokie Rusijos veiksmai, sekant tuo požiūriu, turi piktų intencijų.
-1	Bet	Bet	CCONJ	CC	_	10	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	10	cc	_	En=but
 2	kokie	koks	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	En=any
 3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	En=Russia
 4	veiksmai	veiksmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	En=|SpaceAfter=No
@@ -1057,7 +1057,7 @@
 # newpar id = 188
 # sent_id = 188
 # text = Kiekvienas Rusijos priešas – net jeigu jis neatsakingas, nekompetentingas arba ne itin civilizuotas – automatiškai yra Lietuvos draugas.
-1	Kiekvienas	Kiekvienas	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	det	_	En=each
+1	Kiekvienas	kiekvienas	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	det	_	En=each
 2	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	En=Russia
 3	priešas	priešas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	En=enemy
 4	–	–	PUNCT	PUNCT	_	8	punct	_	En=–
@@ -1081,7 +1081,7 @@
 # newpar id = 189
 # sent_id = 189
 # text = Jei Rusijai sekasi, tai baisu, jei nesiseka, tai didelė laimė; Rusijos klestėjimas, ekonominis ir kultūrinis atgimimas būtų baisiausia, kas gali ištikti jos kaimynus ir pasaulį.
-1	Jei	Jei	SCONJ	UH	_	3	mark	_	En=if
+1	Jei	jei	SCONJ	UH	_	3	mark	_	En=if
 2	Rusijai	Rusija	PROPN	NNP	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	En=Russia
 3	sekasi	sektis	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	En=|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
@@ -1248,7 +1248,7 @@
 # newpar id = 197
 # sent_id = 197
 # text = Apskritai paėmus, turkai nebesvajoja apie imperiją ir niekam nėra mirtinai pavojingi – nei bulgarams, nei serbams, nei graikams, pagaliau netgi armėnams.
-1	Apskritai	Apskritai	ADV	RB	Degree=Pos	2	advmod	_	En=overall
+1	Apskritai	apskritai	ADV	RB	Degree=Pos	2	advmod	_	En=overall
 2	paėmus	paimti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=PartPad|Voice=Act	5	parataxis	_	En=take|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
 4	turkai	turkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	En=Turkish

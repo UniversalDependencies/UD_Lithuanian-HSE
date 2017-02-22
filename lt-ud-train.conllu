@@ -429,7 +429,7 @@
 # newpar id = 7
 # sent_id = 7
 # text = Gal tas Strepsiadas truputį komiškas, tačiau be jo, anot Aristofano, visuomenė ir valstybė nedelsiant sugriūtų.
-1	Gal	Gal	PART	UH	_	5	advmod	_	En=maybe
+1	Gal	gal	PART	UH	_	5	advmod	_	En=maybe
 2	tas	tas	PRON	DT	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	En=this
 3	Strepsiadas	Strepsiadas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	En=Strepsiade
 4	truputį	truputį	ADV	RB	Degree=Pos	5	advmod	_	En=slightly
@@ -572,7 +572,7 @@
 # newpar id = 14
 # sent_id = 14
 # text = Be to, jis domisi ne tik Atika, ne tik savuoju demu, kaip Strepsiadas, bet ir kitais kraštais, netgi visata – taigi yra aiškus globalistas, kosmopolitas.
-1	Be	Be	ADP	UH	_	5	parataxis	_	En=moreover
+1	Be	be	ADP	UH	_	5	parataxis	_	En=moreover
 2	to	tas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	1	fixed	_	En=_|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 4	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	En=he
@@ -608,7 +608,7 @@
 # newpar id = 15
 # sent_id = 15
 # text = Šiandien daug kas įtartų, kad Sokratas yra žydas, ar bent turėjo žydę motiną, o jei ne, tai jo žmona Ksantipė tikriausia žydė.
-1	Šiandien	Šiandien	ADV	RB	Degree=Pos	2	advmod	_	En=today
+1	Šiandien	šiandien	ADV	RB	Degree=Pos	2	advmod	_	En=today
 2	daug	daug	ADV	NUM	Degree=Pos	4	nsubj	_	En=many
 3	kas	kas	PRON	WDT	Case=Nom	2	fixed	_	En=who
 4	įtartų	įtarti	VERB	VBC	Mood=Cnd|Number=Plur|Person=3|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	0	root	_	En=suspect|SpaceAfter=No
@@ -639,7 +639,7 @@
 # newpar id = 16
 # sent_id = 16
 # text = Bet tų laikų Atėnuose žydų nebuvo, ir apie juos vargu ar kas buvo girdėjęs – beje, kaip ir Jeruzalėje vargu ar buvo girdėję apie Atėnus.
-1	Bet	Bet	CCONJ	CC	_	6	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	6	cc	_	En=but
 2	tų	tas	DET	PRP$	Case=Gen|Gender=Masc|Number=Plur	3	det	_	En=that
 3	laikų	laikas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	En=time
 4	Atėnuose	Atėnai	PROPN	NNP	Case=Loc|Gender=Masc|Number=Plur	6	obl	_	En=Athens
@@ -671,7 +671,7 @@
 # newpar id = 17
 # sent_id = 17
 # text = Kiek blogiau su homoseksualizmu.
-1	Kiek	Kiek	PART	UH	_	2	advmod	_	En=how_much
+1	Kiek	kiek	PART	UH	_	2	advmod	_	En=how_much
 2	blogiau	blogai	ADV	PRED	Degree=Cmp	0	root	_	En=worse
 3	su	su	ADP	UH	_	4	case	_	En=with
 4	homoseksualizmu	homoseksualizmas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	En=homosexualism|SpaceAfter=No
@@ -825,7 +825,7 @@
 # newpar id = 24
 # sent_id = 24
 # text = Beje, komedija iš viso yra įskundimas – kaip sovietmečiu sakydavome, donosas.
-1	Beje	Beje	PART	PARENTH	_	7	parataxis	_	En=by_the_way|SpaceAfter=No
+1	Beje	beje	PART	PARENTH	_	7	parataxis	_	En=by_the_way|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	komedija	komedija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	En=comedy
 4	iš	iš	ADP	UH	_	5	case	_	En=from
@@ -843,7 +843,7 @@
 # newpar id = 25
 # sent_id = 25
 # text = Kaip visi žinome, Sokratas buvo atėniečių nuteistas ir turėjo išgerti taurę nuodų – tiesa, tai įvyko žymiai vėliau, bet jo kaltintojai daugmaž kartojo Strepsiado argmentus.
-1	Kaip	Kaip	SCONJ	UH	_	3	mark	_	En=how
+1	Kaip	kaip	SCONJ	UH	_	3	mark	_	En=how
 2	visi	visas	PRON	DT	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	En=all
 3	žinome	žinoti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	En=know|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
@@ -892,7 +892,7 @@
 # newpar id = 27
 # sent_id = 27
 # text = Taip nėra ir Strepsiado-Sokrato (tiksliau, Aristofano-Sokrato) konflikte.
-1	Taip	Taip	ADV	RB	Degree=Pos	0	root	_	En=thus
+1	Taip	taip	ADV	RB	Degree=Pos	0	root	_	En=thus
 2	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	En=be
 3	ir	ir	PART	UH	_	14	advmod	_	En=even
 4	Strepsiado	Strepsiado	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	En=Strepsiade|SpaceAfter=No
@@ -913,7 +913,7 @@
 # text = Galima įžiūrėti tiesos ir kai kuriuose Strepsiado samprotavimuose.
 1	Galima	galėti	VERB	VBC	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	En=can
 2	įžiūrėti	įžiūrėti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	1	xcomp	_	En=see
-3	tiesos	Tiesa	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	En=truth
+3	tiesos	tiesa	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	En=truth
 4	ir	ir	PART	UH	_	8	advmod	_	En=even
 5	kai	kas	DET	WDT	Case=Nom	8	det	_	En=some
 6	kuriuose	kuris	DET	WDT	Case=Loc|Gender=Masc|Number=Sing	5	fixed	_	En=some
@@ -924,7 +924,7 @@
 # newpar id = 29
 # sent_id = 29
 # text = Bet kad ir ką sakysi, vienas skirtumas yra akivaizdus – Sokratas nebūtų padegęs Strepsiado namų ir nebūtų jo įskundinėjęs valdžiai.
-1	Bet	Bet	CCONJ	CC	_	10	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	10	cc	_	En=but
 2	kad	kad	SCONJ	UH	_	5	mark	_	En=when
 3	ir	ir	CCONJ	CC	_	2	fixed	_	En=and
 4	ką	kas	PRON	WP	Case=Acc	2	fixed	_	En=what
@@ -987,7 +987,7 @@
 # newpar id = 32
 # sent_id = 32
 # text = Tiesa, jis dar neapėmė viso gaublio – tarkime, neapėmė islamo kraštų, - bet netrukus gal apims ir juos.
-1	Tiesa	Tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	En=to_say_the_truth|SpaceAfter=No
+1	Tiesa	tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	En=to_say_the_truth|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	En=it
 4	dar	dar	ADV	RB	Degree=Pos	5	advmod	_	En=yet
@@ -1013,7 +1013,7 @@
 # newpar id = 33
 # sent_id = 33
 # text = Už tą pasaulį buvo brangiai sumokėta ir ligi šiol mokama, bet man jis mielesnis ar bent jau įdomesnis negu Strepsiado pasaulis.
-1	Už	Už	ADP	UH	_	3	case	_	En=for
+1	Už	už	ADP	UH	_	3	case	_	En=for
 2	tą	tas	DET	DT	Case=Acc|Gender=Masc|Number=Sing	3	det	_	En=this
 3	pasaulį	pasaulis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	En=world
 4	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	En=be
@@ -1040,7 +1040,7 @@
 # newpar id = 34
 # sent_id = 34
 # text = Jei būtų laimėjęs Strepsiadas, tiksliau, Strepsiado idėja – ligi šiol gyventume dorų, darbščių, patriarchališkų, tėvynę mylinčių žemdirbių bendruomenėse, nieko nežinančiose ir nenorinčiose žinoti apie tolimesnius kraštus ir visatą – beje, apsuptose nekenčiamų ir iš tikro pavojingų barbarų genčių.
-1	Jei	Jei	SCONJ	UH	_	3	mark	_	En=if
+1	Jei	jei	SCONJ	UH	_	3	mark	_	En=if
 2	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	3	aux	_	En=be
 3	laimėjęs	laimėti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	13	advcl	_	En=win
 4	Strepsiadas	Strepsiadas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	En=Strepsiade|SpaceAfter=No
@@ -1149,7 +1149,7 @@
 # newpar id = 38
 # sent_id = 38
 # text = Tiesa, Strepsiadas ir negalėjo laimėti.
-1	Tiesa	Tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	En=to_say_the_truth|SpaceAfter=No
+1	Tiesa	tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	En=to_say_the_truth|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	Strepsiadas	Strepsiadas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	En=Strepsiade
 4	ir	ir	PART	UH	_	5	advmod	_	En=even
@@ -1194,7 +1194,7 @@
 # newpar id = 41
 # sent_id = 41
 # text = Mūsų Sokratas buvo Vytautas Kavolis.
-1	Mūsų	Mūsų	DET	PRP$	_	2	det	_	En=our
+1	Mūsų	mūsų	DET	PRP$	_	2	det	_	En=our
 2	Sokratas	Sokratas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	0	root	_	En=Socrates
 3	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	En=be
 4	Vytautas	Vytautas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	En=Vytautas
@@ -1222,7 +1222,7 @@
 # newpar id = 43
 # sent_id = 43
 # text = Bet turbūt nebus nekuklu, jei pasakysime, kad turime būti lietuviškais Faidonais, Faidrais arba Kritonais – mokiniais, atsakingais už savo mokytojo minčių sklaidą ir už jo atminimą.
-1	Bet	Bet	CCONJ	CC	_	4	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	4	cc	_	En=but
 2	turbūt	turbūt	PART	UH	_	4	advmod	_	En=probably
 3	nebus	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	4	cop	_	En=be
 4	nekuklu	nekuklus	ADJ	JJL	Definite=Ind|Degree=Pos|Gender=Neut|Polarity=Neg	0	root	_	En=not-humble|SpaceAfter=No
@@ -1257,7 +1257,7 @@
 # newpar id = 44
 # sent_id = 44
 # text = Deja, šiandien Lietuvoje, kaip ir sovietmečiu, man knieti pakartoti Sokrato žodžius iš Aristofano komedijos – „Aš dūstu“.
-1	Deja	Deja	INTJ	UH	_	11	parataxis	_	En=unfortunately|SpaceAfter=No
+1	Deja	deja	INTJ	UH	_	11	parataxis	_	En=unfortunately|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	šiandien	šiandien	ADV	RB	Degree=Pos	11	obl	_	En=today
 4	Lietuvoje	Lietuva	PROPN	NNP	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	En=Lithuania|SpaceAfter=No
@@ -1284,7 +1284,7 @@
 # newpar id = 45
 # sent_id = 45
 # text = Turbūt ir pats Vytautas Kavolis juos pakartotų.
-1	Turbūt	Turbūt	PART	UH	_	7	advmod	_	En=probably
+1	Turbūt	turbūt	PART	UH	_	7	advmod	_	En=probably
 2	ir	ir	PART	UH	_	4	advmod	_	En=and
 3	pats	pats	PRON	DT	Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	En=self
 4	Vytautas	Vytautas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	En=Vytautas
@@ -1296,7 +1296,7 @@
 # newpar id = 46
 # sent_id = 46
 # text = Beveik visi garsieji mūsų intelektualai pasuko arba pradeda sukti ne Sokrato, o Strepsiado keliu, nors jau du tūkstančius penkis šimtus metų – ir ne be pagrindo – manoma, kad intelektualui labiau dera Sokrato kelias.
-1	Beveik	Beveik	ADV	RB	Degree=Pos	2	advmod	_	En=almost
+1	Beveik	beveik	ADV	RB	Degree=Pos	2	advmod	_	En=almost
 2	visi	visas	DET	DT	Case=Nom|Gender=Masc|Number=Plur	5	det	_	En=all
 3	garsieji	garsus	ADJ	JJL	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	En=sound
 4	mūsų	mūsų	DET	PRP$	_	5	det	_	En=our
@@ -1480,7 +1480,7 @@
 # newpar id = 51
 # sent_id = 51
 # text = Filosofas Vytautas Radžvilas kalba apie globalistinę indoktrinaciją, smegenų plovimą, apie eurokolaboravimą.
-1	Filosofas	Filosofas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	En=philosopher
+1	Filosofas	filosofas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	En=philosopher
 2	Vytautas	Vytautas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	En=Vytautas
 3	Radžvilas	Radžvilas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	En=Radžvilas
 4	kalba	kalbėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=say
@@ -1527,7 +1527,7 @@
 # newpar id = 53
 # sent_id = 53
 # text = Filosofas Romualdas Ozolas laimina ksenofobų grupes.
-1	Filosofas	Filosofas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	En=philosopher
+1	Filosofas	filosofas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	En=philosopher
 2	Romualdas	Romualdas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	En=Romualdas
 3	Ozolas	Ozolas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	En=Ozolas
 4	laimina	laiminti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=earn
@@ -1779,7 +1779,7 @@
 # newpar id = 61
 # sent_id = 61
 # text = O tie, kurie pas jus vadinami dešiniaisiais, pas mus vadinami pusgalviais“.
-1	O	O	CCONJ	CC	_	12	cc	_	En=and
+1	O	o	CCONJ	CC	_	12	cc	_	En=and
 2	tie	tie	DET	DT	Case=Nom|Number=Plur|Person=3	12	nsubj	_	En=those|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	7	punct	_	En=,
 4	kurie	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	En=which
@@ -1825,7 +1825,7 @@
 # newpar id = 63
 # sent_id = 63
 # text = Deja, neatsitiko nieko ypatingo: panašios tendencijos ryškėjo dar Sąjūdžio laikais, nors tad laisvės siekimas buvo toks uždegantis ir patrauklus, kad norėjosi jų nepastebėti.
-1	Deja	Deja	INTJ	UH	_	3	parataxis	_	En=unfortunately|SpaceAfter=No
+1	Deja	deja	INTJ	UH	_	3	parataxis	_	En=unfortunately|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	neatsitiko	atsitikti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=happen
 4	nieko	niekas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	En=nothing
@@ -1883,7 +1883,7 @@
 # newpar id = 65
 # sent_id = 65
 # text = Iš tikrųjų reikalas nebuvo toks paprastas.
-1	Iš	Iš	ADP	UH	_	2	case	_	En=from
+1	Iš	iš	ADP	UH	_	2	case	_	En=from
 2	tikrųjų	tikras	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	parataxis	_	En=real
 3	reikalas	reikalas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	En=matter
 4	nebuvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	En=be
@@ -1930,7 +1930,7 @@
 # newpar id = 68
 # sent_id = 68
 # text = Antra, ji gėdingai varžė žodį, mintį ir sąžinę, skatino melą bei konformizmą.
-1	Antra	Antra	ADV	RB	Degree=Pos	5	parataxis	_	En=secondly|SpaceAfter=No
+1	Antra	antra	ADV	RB	Degree=Pos	5	parataxis	_	En=secondly|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	ji	ji	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	En=it
 4	gėdingai	gėdingai	ADV	RB	Degree=Pos	5	advmod	_	En=shamefully
@@ -2076,7 +2076,7 @@
 # newpar id = 73
 # sent_id = 73
 # text = Kas sovietams tikrai rūpėjo padaryti, tas jiems ir pavyko: savo valdinius, kad ir kokia kalba jie kalbėtų ir kuo save laikytų, jie smarkiai demoralizavo, įdiegė jiems siaurą primityvų mentalitetą, kurio dalis, beje, buvo ir ksenofobija, ir neapykanta visokiems „kosmopolitams“.
-1	Kas	Kas	SCONJ	UH	Case=Nom	4	mark	_	En=what
+1	Kas	kas	SCONJ	UH	Case=Nom	4	mark	_	En=what
 2	sovietams	sovietai	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	En=the_Soviets
 3	tikrai	tikrai	ADV	RB	Degree=Pos	4	advmod	_	En=actually
 4	rūpėjo	rūpėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	En=concern
@@ -2131,7 +2131,7 @@
 # newpar id = 74
 # sent_id = 74
 # text = Iš esmės jie puikiai užkonservavo kaip tik tokią lietuvių tautą, kokia patinka mūsų pseudointelektualams.
-1	Iš	Iš	ADP	UH	_	2	case	_	En=from
+1	Iš	iš	ADP	UH	_	2	case	_	En=from
 2	esmės	esmė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	parataxis	_	En=essence
 3	jie	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	En=they
 4	puikiai	puikiai	ADV	RB	Degree=Pos	5	advmod	_	En=perfectly
@@ -2151,7 +2151,7 @@
 # newpar id = 75
 # sent_id = 75
 # text = Sąjūdžio laikais buvo lengviausia išjudinti mases, pabrėžiant tautinį momentą, nes tai nereikalauja gilesnės refleksijos – į tautinius šūkius dauguma reaguoja automatiškai ar beveik automatiškai, tautinė savigarba yra savaime kilnus dalykas.
-1	Sąjūdžio	Sąjūdis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	En=union
+1	Sąjūdžio	sąjūdis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	En=union
 2	laikais	laikas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	4	obl	_	En=time
 3	buvo	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	En=be
 4	lengviausia	lengvas	ADJ	PRED	Case=Nom|Definite=Ind|Degree=Sup|Gender=Fem|Number=Sing	0	root	_	En=easy
@@ -2206,7 +2206,7 @@
 # newpar id = 77
 # sent_id = 77
 # text = Bet šiandien regime ir tautinių šūkių išvirkščiąją pusę.
-1	Bet	Bet	CCONJ	CC	_	2	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	2	cc	_	En=but
 2	šiandien	šiandien	ADV	RB	Degree=Pos	3	advmod	_	En=today
 3	regime	regėti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=see
 4	ir	ir	PART	UH	_	8	advmod	_	En=even
@@ -2219,7 +2219,7 @@
 # newpar id = 78
 # sent_id = 78
 # text = Bent penkiasdešimt metų, o gal ir ilgiau (jei turėsime galvoje Smetonos autoritarizmo laikotarpį) Lietuvoje stigo normalios, „sokratiškos“ intelektualios terpės.
-1	Bent	Bent	PART	UH	_	2	advmod	_	En=at_least
+1	Bent	bent	PART	UH	_	2	advmod	_	En=at_least
 2	penkiasdešimt	penkiasdešimt	NUM	CD	_	3	nummod	_	En=50
 3	metų	metai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	obl	_	En=years|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	8	punct	_	En=,
@@ -2512,7 +2512,7 @@
 # newpar id = 87
 # sent_id = 87
 # text = Dar blogiau yra Vengrijoje ir Slovakijoje, kur fašistoidinės tendencijos toli prasiskverbė į valdžią, o pasipriešinimo joms ne tiek daug.
-1	Dar	Dar	ADV	RB	Degree=Pos	2	advmod	_	En=more
+1	Dar	dar	ADV	RB	Degree=Pos	2	advmod	_	En=more
 2	blogiau	blogai	ADV	PRED	Degree=Cmp	0	root	_	En=worse
 3	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	En=be
 4	Vengrijoje	Vengrija	PROPN	NNP	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	En=Hungary
@@ -2553,7 +2553,7 @@
 # newpar id = 89
 # sent_id = 89
 # text = Bet apsiribokime lietuvišku pasaliu.
-1	Bet	Bet	CCONJ	CC	_	2	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	2	cc	_	En=but
 2	apsiribokime	apsiriboti	VERB	VBC	Mood=Imp|Number=Plur|Person=1|Polarity=Pos|Reflex=Yes|VerbForm=Fin|Voice=Act	0	root	_	En=focus
 3	lietuvišku	lietuviškas	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	En=Lithianian
 4	pasaliu	pasalis	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	2	iobj	_	En=world|SpaceAfter=No
@@ -2609,7 +2609,7 @@
 # newpar id = 92
 # sent_id = 92
 # text = Tiesiog rūpi turėti skaitytoją, ir ne tik šiandien, bet ir ateityje.
-1	Tiesiog	Tiesiog	ADV	RB	Degree=Pos	2	advmod	_	En=just
+1	Tiesiog	tiesiog	ADV	RB	Degree=Pos	2	advmod	_	En=just
 2	rūpi	rūpėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=important
 3	turėti	turėti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	2	xcomp	_	En=have
 4	skaitytoją	skaitytojas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	En=reader|SpaceAfter=No
@@ -2627,7 +2627,7 @@
 # newpar id = 93
 # sent_id = 93
 # text = Tačiau nesutinku, kad dera mylėti tik tokią tėvynę, tautą ir lietuvybę, kokias įsivaizduoja daugelis mūsų filosofų ir nefilosofų – atseit, mylėti ir baigta, jokiu būdu jų nereflektuoti.
-1	Tačiau	Tačiau	CCONJ	CC	_	2	cc	_	En=however
+1	Tačiau	tačiau	CCONJ	CC	_	2	cc	_	En=however
 2	nesutinku	sutikti	VERB	PRED	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	En=agree|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	En=,
 4	kad	kad	SCONJ	UH	_	5	mark	_	En=that
@@ -2696,7 +2696,7 @@
 # newpar id = 95
 # sent_id = 95
 # text = Be to, ji būtinai turi turėti priešų.
-1	Be	Be	ADP	UH	_	6	parataxis	_	En=without
+1	Be	be	ADP	UH	_	6	parataxis	_	En=without
 2	to	tas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	1	fixed	_	En=that|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 4	ji	ji	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	En=she
@@ -2732,7 +2732,7 @@
 # newpar id = 97
 # sent_id = 97
 # text = Pasak tos doktorinos, tautą, iš viso visuomenę integruoja ir palaiko tik priešo įvaizdis.
-1	Pasak	Pasak	ADP	UH	_	3	case	_	En=according_to
+1	Pasak	pasak	ADP	UH	_	3	case	_	En=according_to
 2	tos	tas	DET	DT	Case=Gen|Gender=Fem|Number=Sing	3	det	_	En=_
 3	doktorinos	doktorina	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	parataxis	_	En=|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
@@ -2839,7 +2839,7 @@
 # newpar id = 102
 # sent_id = 102
 # text = Kad ir keista, iš dalies su juo sutinku.
-1	Kad	Kad	SCONJ	UH	_	3	mark	_	En=that
+1	Kad	kad	SCONJ	UH	_	3	mark	_	En=that
 2	ir	ir	CCONJ	CC	_	9	cc	_	En=and
 3	keista	keistas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	parataxis	_	En=strange|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
@@ -2853,7 +2853,7 @@
 # newpar id = 103
 # sent_id = 103
 # text = Taip, dekonstruojama anachroniška, XIX amžiaus ir Smetonos laikų valstybinė ir tautinė sąmonė, kurią užkonservavo sovietmetis, ir kurią dekonstruoti seniai laikas.
-1	Taip	Taip	PART	UH	_	0	root	_	En=so|SpaceAfter=No
+1	Taip	taip	PART	UH	_	0	root	_	En=so|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	dekonstruojama	dekonstruoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	1	parataxis	_	En=deconsruct
 4	anachroniška	anachroniškas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	En=anachronous|SpaceAfter=No
@@ -2940,7 +2940,7 @@
 # newpar id = 106
 # sent_id = 106
 # text = Taip, mano adresas – ne menkutė, izoliuota, visų aplinkui neapkenčianti ir bijanti Lietuva, o Lietuva Europoje, Lietuva pasaulyje.
-1	Taip	Taip	PART	UH	_	0	root	_	En=yes|SpaceAfter=No
+1	Taip	taip	PART	UH	_	0	root	_	En=yes|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
 3	mano	mano	DET	PRP$	_	4	det	_	En=my
 4	adresas	adresas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	En=address
@@ -3092,7 +3092,7 @@
 # newpar id = 112
 # sent_id = 112
 # text = Šiandien galima būti lietuviu ir vaisingai dalyvauti Lietuvos gyvenime net tada, jei tavo svarbiausias būstas yra kitame kontinente.
-1	Šiandien	Šiandien	ADV	RB	Degree=Pos	2	advmod	_	En=today
+1	Šiandien	šiandien	ADV	RB	Degree=Pos	2	advmod	_	En=today
 2	galima	galėti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	En=can
 3	būti	būti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	2	xcomp	_	En=be
 4	lietuviu	lietuvis	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	iobj	_	En=Lithianian
@@ -3197,7 +3197,7 @@
 # newpar id = 116
 # sent_id = 116
 # text = Bet toks yra vienintelis humanistinis ir šiuolaikinis, taigi vienintelis priimtinas požiūris.
-1	Bet	Bet	CCONJ	CC	_	12	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	12	cc	_	En=but
 2	toks	toks	DET	DT	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	En=such
 3	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	En=be
 4	vienintelis	vienintelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	En=alone
@@ -3214,7 +3214,7 @@
 # newpar id = 117
 # sent_id = 117
 # text = Beje, visa tai nėra didelė naujovė.
-1	Beje	Beje	PART	PARENTH	_	7	parataxis	_	En=by_the_way|SpaceAfter=No
+1	Beje	beje	PART	PARENTH	_	7	parataxis	_	En=by_the_way|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	visa	visas	DET	DT	Case=Nom|Gender=Fem|Number=Sing	4	det	_	En=all
 4	tai	tai	PRON	DT	_	7	nsubj	_	En=this
@@ -3226,7 +3226,7 @@
 # newpar id = 118
 # sent_id = 118
 # text = Ne tik žydų, bet ir airių dauguma gyvena diasporoje, ir tai anaiptol nekenkia nei Izraeliui, nei Airijai.
-1	Ne	Ne	PART	UH	Polarity=Neg	3	cc	_	En=not
+1	Ne	ne	PART	UH	Polarity=Neg	3	cc	_	En=not
 2	tik	tik	ADV	RB	Degree=Pos	1	fixed	_	En=only
 3	žydų	žydas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	En=Jews|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	7	punct	_	En=,
@@ -3288,7 +3288,7 @@
 # newpar id = 121
 # sent_id = 121
 # text = Kad ir kokios būtų su tuo susijusios problemos, kad ir kiek jas bandytų išpūsti rasistai, nei viena Europos Sąjungos tauta nerodo nutautėjimo požymių.
-1	Kad	Kad	SCONJ	UH	_	8	mark	_	En=that
+1	Kad	kad	SCONJ	UH	_	8	mark	_	En=that
 2	ir	ir	CCONJ	CC	_	1	fixed	_	En=and
 3	kokios	koks	PRON	WPA	Case=Nom|Gender=Fem|Number=Plur	1	fixed	_	En=what
 4	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Polarity=Pos|Reflex=No|VerbForm=Fin|Voice=Act	8	cop	_	En=be
@@ -3318,7 +3318,7 @@
 # newpar id = 122
 # sent_id = 122
 # text = Beje, be imigrantų daugelis jų seniai būtų žlugusios ekonomiškai, taigi ir valstybiškai, ir tautiškai.
-1	Beje	Beje	PART	PARENTH	_	9	parataxis	_	En=by_the_way|SpaceAfter=No
+1	Beje	beje	PART	PARENTH	_	9	parataxis	_	En=by_the_way|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	be	be	ADP	UH	_	4	case	_	En=without
 4	imigrantų	imigrantas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	En=immigrant
@@ -3470,7 +3470,7 @@
 # newpar id = 130
 # sent_id = 130
 # text = Bet nepriklausomybė be jokių apribojimų praktiškai neįmanoma, o jeigu įmanoma, tai žalinga.
-1	Bet	Bet	CCONJ	CC	_	7	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	7	cc	_	En=but
 2	nepriklausomybė	nepriklausomybė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg	7	nsubj	_	En=independence
 3	be	be	ADP	UH	_	5	case	_	En=without
 4	jokių	joks	DET	DT	Case=Gen|Gender=Masc|Number=Plur	5	det	_	En=no
@@ -3505,7 +3505,7 @@
 # newpar id = 132
 # sent_id = 132
 # text = Beje, ateityje (tiesa, gana tolimoje) nepriklausomas valstybes iš viso galbūt pavaduos globalinė sąjungą, kurios bruožai pastebimi ir dabar: tai anaiptol nereiškia, kad išnyks tautiniai skirtingumai, kalbos ir tradicijos.
-1	Beje	Beje	PART	PARENTH	_	15	parataxis	_	En=by_the_way|SpaceAfter=No
+1	Beje	beje	PART	PARENTH	_	15	parataxis	_	En=by_the_way|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	En=,
 3	ateityje	ateitis	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	En=in_the_future
 4	(	(	PUNCT	PUNCT	_	8	punct	_	En=(|SpaceAfter=No
@@ -3595,7 +3595,7 @@
 # newpar id = 134
 # sent_id = 134
 # text = Jei kas nori gyventi tobulai nepriklausomoje Šiaurės Korėjoje, tegu gyvena, bet tautai to prašom nesiūlyti.
-1	Jei	Jei	SCONJ	UH	_	3	mark	_	En=if
+1	Jei	jei	SCONJ	UH	_	3	mark	_	En=if
 2	kas	kas	PRON	WDT	Case=Nom	3	nsubj	_	En=who
 3	nori	norėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	En=unwilling
 4	gyventi	gyventi	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	3	xcomp	_	En=live
@@ -3617,7 +3617,7 @@
 # newpar id = 135
 # sent_id = 135
 # text = Iš viso kurti fetišą, stabą iš valstybės – nepriimtina praktika, nes ji pažeidžia pirmąjį Dievo įsakymą, privalomą ir krikščioniui, ir šiaip jau mąstančiam žmogui.
-1	Iš	Iš	ADP	UH	_	11	advmod	_	En=from
+1	Iš	iš	ADP	UH	_	11	advmod	_	En=from
 2	viso	visas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	1	fixed	_	En=all
 3	kurti	kurti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	11	csubj	_	En=make
 4	fetišą	fetišas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	En=fetish|SpaceAfter=No
@@ -3718,7 +3718,7 @@
 # newpar id = 139
 # sent_id = 139
 # text = Ksenofobija ir izoliacionizmas akivaizdžiai atsiliepia mūsų santykiams su kaimynais.
-1	Ksenofobija	Ksenofobija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	En=xenophobia
+1	Ksenofobija	ksenofobija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	En=xenophobia
 2	ir	ir	CCONJ	CC	_	3	cc	_	En=and
 3	izoliacionizmas	izoliacionizmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	En=isolationism
 4	akivaizdžiai	akivaizdžiai	ADV	RB	Degree=Pos	5	advmod	_	En=apparently
@@ -3791,7 +3791,7 @@
 # newpar id = 142
 # sent_id = 142
 # text = Deja, taip nėra – šiandien jie pastebimai aštrėja.
-1	Deja	Deja	INTJ	UH	_	9	parataxis	_	En=unfortunately|SpaceAfter=No
+1	Deja	deja	INTJ	UH	_	9	parataxis	_	En=unfortunately|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	taip	taip	PART	UH	_	1	parataxis	_	En=however
 4	nėra	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	3	fixed	_	En=however
@@ -3805,7 +3805,7 @@
 # newpar id = 143
 # sent_id = 143
 # text = Į tai man bus atsakyta: „čia ne mes vieni kalti“.
-1	Į	Į	ADP	UH	_	2	case	_	En=to
+1	Į	į	ADP	UH	_	2	case	_	En=to
 2	tai	tai	PRON	DT	_	5	obl	_	En=this
 3	man	mes	PRON	PRP	Case=Dat|Number=Sing|Person=1	5	iobj	_	En=I
 4	bus	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	5	aux:pass	_	En=be
