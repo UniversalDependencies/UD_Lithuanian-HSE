@@ -1081,7 +1081,7 @@
 2	esą	būti	AUX	VBNL	_	3	aux	_	En=be
 3	negirdėti	girdėti	VERB	VB	Polarity=Neg|Reflex=No|VerbForm=Inf|Voice=Act	0	root	_	En=hear
 4	jokių	joks	PRON	DT	Case=Gen|Gender=Masc|Number=Plur	6	amod	_	En=no
-5	pašalinių	pašalinis	NOUN	NN	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	_	En=side
+5	pašalinių	pašalinis	NOUN	NN	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos	6	amod	_	En=side
 6	garsų	garsas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	En=noise|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
 8	kurie	kuris	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	En=which

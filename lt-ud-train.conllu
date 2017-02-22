@@ -489,7 +489,7 @@
 1	Jam	jis	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obj	_	En=he
 2	viskas	viskas	PRON	DT	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	En=everything
 3	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	En=be
-4	aišku	aiškus	VERB	PREF	Definite=Ind|Degree=Pos|Gender=Neut|Polarity=Pos	0	root	_	En=obvious|SpaceAfter=No
+4	aišku	aiškus	VERB	PREF	Definite=Ind|Gender=Neut|Polarity=Pos	0	root	_	En=obvious|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	8	punct	_	En=,
 6	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	En=he
 7	lengvai	lengvai	ADV	RB	Degree=Pos	8	advmod	_	En=easy
@@ -586,7 +586,7 @@
 12	savuoju	savas	DET	PRP$	Case=Ins|Definite=Def|Gender=Masc|Number=Sing	13	det	_	En=oneself
 13	demu	demas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	8	conj	_	En=demos|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
-15	kaip	kaip	SCONJ	WRB	Degree=Pos	16	case	_	En=like
+15	kaip	kaip	SCONJ	WRB	_	16	case	_	En=like
 16	Strepsiadas	Strepsiadas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	En=Strepsiade|SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	21	punct	_	En=,
 18	bet	bet	CCONJ	CC	_	21	cc	_	En=but
@@ -1313,7 +1313,7 @@
 15	keliu	kelias	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	9	iobj	_	En=path|SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	30	punct	_	En=,
 17	nors	nors	SCONJ	UH	_	30	mark	_	En=though
-18	jau	jau	PART	RB	Degree=Pos	28	advmod	_	En=already
+18	jau	jau	PART	RB	_	28	advmod	_	En=already
 19	du	du	NUM	CD	Case=Acc|Gender=Masc	22	compound	_	En=two
 20	tūkstančius	tūkstantis	NUM	CD	Case=Acc|Gender=Masc|Number=Plur	22	compound	_	En=thousand
 21	penkis	penki	NUM	CD	Case=Acc|Gender=Masc	22	compound	_	En=five
@@ -1712,7 +1712,7 @@
 4	tiesa	tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	En=truth|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	En=,
 6	ne	ne	PART	UH	Polarity=Neg	7	advmod	_	En=not
-7	lietuvių	lietuvis	NOUN	NN	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	8	nmod	_	En=Lithianian
+7	lietuvių	lietuvis	NOUN	NN	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	En=Lithianian
 8	spaudoje	spauda	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	En=press|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	11	punct	_	En=,
 10	-	-	PUNCT	PUNCT	_	11	punct	_	En=-
@@ -1863,7 +1863,7 @@
 4	atmesta	atmesti	VERB	VBC	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	En=reject
 5	pirmiausia	pirmiausia	ADV	RBS	Degree=Sup	4	parataxis	_	En=firstly
 6	ar	ar	PART	UH	_	8	cc	_	En=or
-7	net	net	PART	UH	Degree=Pos	8	advmod	_	En=even
+7	net	net	PART	UH	_	8	advmod	_	En=even
 8	išimtinai	išimtinai	ADV	RB	Degree=Pos	5	conj	_	En=solely|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	18	punct	_	En=,
 10	dėl	dėl	SCONJ	UH	_	18	mark	_	En=due_to
@@ -2579,7 +2579,7 @@
 3	kad	kad	SCONJ	UH	_	13	mark	_	En=that
 4	man	mes	PRON	PRP	Case=Acc|Number=Sing|Person=1	13	obj	_	En=I
 5	asmeniškai	asmeniškai	ADV	RB	Degree=Pos	4	advmod	_	En=personally
-6	lietuvių	lietuvis	NOUN	NN	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	En=Lithianian
+6	lietuvių	lietuvis	NOUN	NN	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	7	amod	_	En=Lithianian
 7	tautos	tauta	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	En=nation
 8	ir	ir	CCONJ	CC	_	9	cc	_	En=and
 9	kalbos	kalba	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	En=language
@@ -2804,7 +2804,7 @@
 8	būti	būti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	7	xcomp	_	En=be
 9	ne	ne	PART	UH	Polarity=Neg	10	advmod	_	En=not
 10	toks	toks	DET	DT	_	12	det	_	En=such
-11	jau	jau	PART	RB	Degree=Pos	12	advmod	_	En=already
+11	jau	jau	PART	RB	_	12	advmod	_	En=already
 12	blogas	blogas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	iobj	_	En=worse|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
 14	o	o	CCONJ	CC	_	19	cc	_	En=and
@@ -2903,7 +2903,7 @@
 19	ne	ne	PART	UH	Polarity=Neg	20	advmod	_	En=not
 20	tokia	toks	DET	DT	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	En=these|SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	En=,
-22	kaip	kaip	SCONJ	UH	Degree=Pos	23	mark	_	En=as
+22	kaip	kaip	SCONJ	UH	_	23	mark	_	En=as
 23	Radio	Radio	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	acl	_	En=radio
 24	Maryja	Maryja	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	23	flat	_	En=Maryja
 25	lenkų	lenkas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	En=Polish
@@ -3342,7 +3342,7 @@
 # text = Esama taip pat psichologinio komplekso, kurį pavadinčiau „nepriklausomybės fetišizmu“.
 1	Esama	būti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	En=existing
 2	taip	taip	PART	UH	_	5	advmod	_	En=yes
-3	pat	pat	PART	RB	Degree=Pos	2	fixed	_	En=well
+3	pat	pat	PART	RB	_	2	fixed	_	En=well
 4	psichologinio	psichologinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	En=psychologist
 5	komplekso	kompleksas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	En=complex|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
