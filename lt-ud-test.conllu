@@ -344,14 +344,14 @@
 16	mentalitetą	mentalitetas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	mentality|_
 17	.	.	PUNCT	PUNCT	_	2	punct	_	.|_
 
-# title_lt = Paskutiniai žemyn smingančio Tu-154 kapitono padėjėjo žodžiai fiksuoti lietuvišku prietaisu
-# title_en = 
-# title_ru = Последние слова пилотов Ту-154 записал произведенный в Литве прибор
-# ref = <ref>http://www.delfi.lt/news/daily/lithuania/paskutiniai-zemyn-smingancio-tu-154-kapitono-padejejo-zodziai-fiksuoti-lietuvisku-prietaisu.d?id=73337760</ref>
 # newdoc id = lt-ru-5
-# newpar_id = lt-ru-5-p1
+# newpar id = lt-ru-5-p1
 # sent_id = lt-ru-5-p1-1
 # text = Paskutiniai žemyn smingančio Tu-154 kapitono padėjėjo žodžiai fiksuoti lietuvišku prietaisu
+# title_lt = Paskutiniai žemyn smingančio Tu-154 kapitono padėjėjo žodžiai fiksuoti lietuvišku prietaisu
+# title_en =
+# title_ru = Последние слова пилотов Ту-154 записал произведенный в Литве прибор
+# ref = <ref>http://www.delfi.lt/news/daily/lithuania/paskutiniai-zemyn-smingancio-tu-154-kapitono-padejejo-zodziai-fiksuoti-lietuvisku-prietaisu.d?id=73337760</ref>
 1	Paskutiniai	paskutinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	_	_|_
 2	žemyn	žemyn	ADV	RB	Degree=Pos|Polarity=Pos	3	advmod	_	down|_
 3	smingančio	smigti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	fall|_
@@ -363,7 +363,7 @@
 9	lietuvišku	lietuviškas	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	_	Lithianian|_
 10	prietaisu	prietaisas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	device|_
 
-# newpar_id = lt-ru-5-p2
+# newpar id = lt-ru-5-p2
 # sent_id = lt-ru-5-p2-2
 # text = Juodojoje jūroje sudužusio Rusijos gynybos ministerijos lėktuvo Tu-154 katastrofos narpliojantys tyrėjai analizuoja įvairius vadinamųjų „juodųjų dėžių“ duomenis, tarp jų ir sudužusio orlaivio įgulos pokalbius.
 1	Juodojoje	juodas	ADJ	JJL	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	_	black|_
@@ -411,7 +411,7 @@
 12	prietaisai	prietaisas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	equipment|_
 13	.	.	PUNCT	PUNCT	_	2	punct	_	.|_
 
-# newpar_id = lt-ru-5-p3
+# newpar id = lt-ru-5-p3
 # sent_id = lt-ru-5-p3-4
 # text = „Užsparniai, su*a! Vade, krentame!“, – tokie buvo paskutiniai lėktuvo Tu-154 kapitono padėjėjo Aleksandro Rovenskio žodžiai, kuriuos įrašė savirašis prietaisas MARS BM.
 1	„	„	PUNCT	PUNCT	_	2	punct	_	„|_
@@ -481,7 +481,7 @@
 14	savaitę	savaitė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	week|_
 15	.	.	PUNCT	PUNCT	_	7	punct	_	.|_
 
-# newpar_id = lt-ru-5-p4
+# newpar id = lt-ru-5-p4
 # sent_id = lt-ru-5-p4-7
 # text = Paprastai, kai į lėktuvai nukrenta į jūrą, nustatyti katastrofos priežastis būna ypač sunku.
 1	Paprastai	paprastai	ADV	RB	Degree=Pos|Polarity=Pos	15	advmod	_	usually|_
@@ -545,7 +545,7 @@
 6	sunkiau	sunkiai	ADV	RBR	Degree=Cmp|Polarity=Pos	0	root	_	with difficulty|_
 7	.	.	PUNCT	PUNCT	_	6	punct	_	.|_
 
-# newpar_id = lt-ru-5-p5
+# newpar id = lt-ru-5-p5
 # sent_id = lt-ru-5-p5-10
 # text = Vis dėlto Rusijos narai ne tik ištraukė tik kiek aplamdytą savirašį MARS BM prietaisą, bet ir atidarę apsauginę kapsulę viduje rado nepažeistą magnetofoną.
 1	Vis	vis%dėlto	SCONJ	UH	_	22	mark	_	however|_
@@ -595,14 +595,14 @@
 17	dešimtmetyje	dešimtmetis	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	11	appos	_	20th century|_
 18	.	.	PUNCT	PUNCT	_	7	punct	_	.|_
 
-# newpar_id = lt-ru-5-p6
+# newpar id = lt-ru-5-p6
 # sent_id = lt-ru-5-p6-12
 # text = Slapta gamykla Vilniuje
 1	Slapta	slaptas	ADV	RB	Degree=Pos|Polarity=Pos	2	amod	_	secret|_
 2	gamykla	gamykla	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	factory|_
 3	Vilniuje	Vilnius	PROPN	NNP	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Vilnius|_
 
-# newpar_id = lt-ru-5-p7
+# newpar id = lt-ru-5-p7
 # sent_id = lt-ru-5-p7-13
 # text = Tačiau nedaugelis šiandien žino, kad tais laikais tokius juostinius bei kasetinius magnetofonus, dedamus į ryškia oranžine arba raudona spalva nudažytas kapsules, gamino tiktai Vilniuje.
 1	Tačiau	tačiau	CCONJ	CC	_	4	cc	_	however|_
@@ -648,7 +648,7 @@
 10	“	“	PUNCT	PUNCT	_	9	punct	_	“|_
 11	.	.	PUNCT	PUNCT	_	5	punct	_	.|_
 
-# newpar_id = lt-ru-5-p8
+# newpar id = lt-ru-5-p8
 # sent_id = lt-ru-5-p8-15
 # text = (Vilniaus radijo matavimo prietaisų gamykla).
 1	(	(	PUNCT	PUNCT	_	6	punct	_	(|_
@@ -724,7 +724,7 @@
 27	prekės	prekė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	goods|_
 28	.	.	PUNCT	PUNCT	_	8	punct	_	.|_
 
-# newpar_id = lt-ru-5-p9
+# newpar id = lt-ru-5-p9
 # sent_id = lt-ru-5-p9-18
 # text = Sovietiniais laikais „Vilmoje“ dirbęs dabartinis socialdemokratų partijos politikas Algirdas Sysas pasakojo žinojęs, jog kituose skyriuose gaminami prietaisai ir lėktuvams, ir kitai karinei technikai.
 1	Sovietiniais	sovietinis	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	2	amod	_	Soviet|_
@@ -756,7 +756,7 @@
 27	technikai	technikas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	conj	_	technics|_
 28	.	.	PUNCT	PUNCT	_	13	punct	_	.|_
 
-# newpar_id = lt-ru-5-p10
+# newpar id = lt-ru-5-p10
 # sent_id = lt-ru-5-p10-19
 # text = „Tai buvo aukštos kokybės aparatai, maksimaliai primityvūs, bet užtikrinantys galimybę gauti informaciją.
 1	„	„	PUNCT	PUNCT	_	3	punct	_	„|_
@@ -845,7 +845,7 @@
 15	pavaduotoju	pavaduotojas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	9	obj	_	vicar|_
 16	.	.	PUNCT	PUNCT	_	9	punct	_	.|_
 
-# newpar_id = lt-ru-5-p11
+# newpar id = lt-ru-5-p11
 # sent_id = lt-ru-5-p11-23
 # text = Jis neslėpė žinojęs, kad dirbo slaptame adrese, kuris buvo žinomas įvairiais pavadinimais, pavyzdžiui, „Pašto dėžutė 4151“ bei „Pašto dėžutė 52“.
 1	Jis	jis	PRON	PRP	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	he|_
@@ -901,7 +901,7 @@
 19	m	m	NOUN	NN	_	12	obl	_	year|_
 20	.	.	PUNCT	PUNCT	_	11	punct	_	.|_
 
-# newpar_id = lt-ru-5-p12
+# newpar id = lt-ru-5-p12
 # sent_id = lt-ru-5-p12-25
 # text = Anot kito gamykloje dirbusio lietuvio, Romualdo Beniušio, vėliau pradėti gaminti ir magnetofonai prietaisams MARS BM, kuriuos kruopščiai tikrindavo saugumiečiai.
 1	Anot	anot	ADP	UH	_	5	case	_	according to|_
@@ -928,7 +928,7 @@
 22	saugumiečiai	saugumietis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	security|_
 23	.	.	PUNCT	PUNCT	_	11	punct	_	.|_
 
-# newpar_id = lt-ru-5-p13
+# newpar id = lt-ru-5-p13
 # sent_id = lt-ru-5-p13-26
 # text = Įrašuose - lemtingi pilotų žodžiai
 1	Įrašuose	įrašas	NOUN	NN	Case=Loc|Gender=Masc|Number=Plur	0	root	_	crash|_
@@ -937,7 +937,7 @@
 4	pilotų	pilotas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	pilot|_
 5	žodžiai	žodis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	word|_
 
-# newpar_id = lt-ru-5-p14
+# newpar id = lt-ru-5-p14
 # sent_id = lt-ru-5-p14-27
 # text = „Labai daug išbrokuodavo, nes mes darėme taip, kad būtų įvykdyti planai, o jiems reikėjo kokybės“, – pasakojo R. Beniušis.
 1	„	„	PUNCT	PUNCT	_	4	punct	_	„|_
@@ -999,7 +999,7 @@
 6	naujo	iš%naujo	ADV	RB	Degree=Pos	5	fixed	_	again|_
 7	.	.	PUNCT	PUNCT	_	4	punct	_	.|_
 
-# newpar_id = lt-ru-5-p15
+# newpar id = lt-ru-5-p15
 # sent_id = lt-ru-5-p15-30
 # text = „Nėra prasmės įrašinėti daugiau, nes jei kas atsitinka, tai nutinka greitai ir svarbiausios būna minutės ar net sekundės“, – teigė buvęs „Vilmos“ darbuotojas.
 1	„	„	PUNCT	PUNCT	_	2	punct	_	„|_
@@ -1034,7 +1034,7 @@
 30	darbuotojas	darbuotojas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	employee|_
 31	.	.	PUNCT	PUNCT	_	25	punct	_	.|_
 
-# newpar_id = lt-ru-5-p16
+# newpar id = lt-ru-5-p16
 # sent_id = lt-ru-5-p16-31
 # text = Išties, Tu-154 katastrofą tiriantys ekspertai dėmesį atkreipė į paskutines dešimt pilotų pokalbių sekundžių – iki tol kilęs lėktuvas nepatyrė jokių gedimų, o apie „ypatingą situaciją“ lėktuve tyrėjams užuominas suteikė būtent pilotų pokalbiai.
 1	Išties	išties	ADV	RB	Degree=Pos|Polarity=Pos	8	parataxis	_	actually|_
@@ -1094,7 +1094,7 @@
 15	užgrobimą	užgrobimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	|_
 16	.	.	PUNCT	PUNCT	_	3	punct	_	.|_
 
-# newpar_id = lt-ru-5-p17
+# newpar id = lt-ru-5-p17
 # sent_id = lt-ru-5-p17-33
 # text = MARS BM garsą užtikrina trys įtaisyti mikrofonai.
 1	MARS	MARS	PROPN	NNP	_	3	nmod	_	MARS|_
@@ -1188,7 +1188,7 @@
 16	m	m	NOUN	NN	_	13	nmod	_	year|_
 17	.	.	PUNCT	PUNCT	_	4	punct	_	.|_
 
-# newpar_id = lt-ru-5-p18
+# newpar id = lt-ru-5-p18
 # sent_id = lt-ru-5-p18-37
 # text = Ir nors oficialios „Tu-154“ tragedijos priežastys iki šiol neįvardytos, realiausia versija laikoma pilotų klaida.
 1	Ir	ir	CCONJ	CC	_	15	cc	_	and|_
