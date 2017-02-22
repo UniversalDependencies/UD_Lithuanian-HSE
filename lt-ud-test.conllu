@@ -305,7 +305,7 @@
 1	Summa	summa	X	X	_	3	advmod	_	En=summa
 2	summarum	summarum	X	X	_	1	flat	_	En=summarum
 3	lieku	likti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=remain
-4	optimistas	optimistas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	En=optimist|SpaceAfter=No
+4	optimistas	optimistas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	En=optimist|SpaceAfter=No
 5	:	:	PUNCT	PUNCT	_	15	punct	_	En=:
 6	po	po	ADP	UH	_	8	case	_	En=after
 7	nepriklausomybės	nepriklausomybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing|Polarity=Neg	8	nmod	_	En=independence

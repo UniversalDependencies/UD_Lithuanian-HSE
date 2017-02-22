@@ -14,7 +14,7 @@
 11	kitų	kitas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	12	nmod	_	En=other
 12	kaltes	kaltė	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	En=fault
 13	(	(	PUNCT	PUNCT	_	18	punct	_	En=(|SpaceAfter=No
-14	nors	nors	SCONJ	UH	_	19	mark	_	En=though
+14	nors	nors	SCONJ	UH	_	18	mark	_	En=though
 15	tai	tai	PRON	DT	_	18	nsubj	_	En=this
 16	psichologiškai	psichologiškai	ADV	RB	Degree=Pos	17	advmod	_	En=psychologically
 17	suprantama	suprasti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	En=understand
@@ -852,7 +852,7 @@
 14	totalitarinių	totalitarinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	En=totalitarism
 15	nusikaltimų	nusikaltimas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	conj	_	En=crime
 16	(	(	PUNCT	PUNCT	_	25	punct	_	En=(|SpaceAfter=No
-17	beje	beje	PART	PARENTH	_	18	parataxis	_	En=by_the_way|SpaceAfter=No
+17	beje	beje	PART	PARENTH	_	19	parataxis	_	En=by_the_way|SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
 19	tą	tas	DET	DT	Case=Acc|Gender=Fem|Number=Sing	20	det	_	En=this
 20	infliaciją	infliacija	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	En=inflation
@@ -862,7 +862,7 @@
 24	nepriklausomybę	nepriklausomybė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg	23	obj	_	En=independence
 25	skatino	skatinti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastSimp	6	parataxis	_	En=because
 26	mūsų	mūsų	DET	PRP$	_	27	det	_	En=our
-27	emigrantai	emigrantas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	En=|SpaceAfter=No
+27	emigrantai	emigrantas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	En=|SpaceAfter=No
 28	)	)	PUNCT	PUNCT	_	25	punct	_	En=)|SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	6	punct	_	En=.
 
@@ -1043,7 +1043,7 @@
 1	Bet	Bet	CCONJ	CC	_	10	cc	_	En=but
 2	kokie	koks	PRON	WPA	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	En=any
 3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	En=Russia
-4	veiksmai	veiksmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	En=|SpaceAfter=No
+4	veiksmai	veiksmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	En=|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	En=,
 6	sekant	sekti	VERB	VBG	Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=PartPad|Voice=Act	10	parataxis	_	En=follow
 7	tuo	tuo	DET	DT	_	8	det	_	En=that
@@ -1167,7 +1167,7 @@
 5	potvynio	potvynis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	En=flood
 6	apsemtų	apsemti	VERB	VBNL	Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	En=
 7	namų	namai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	En=house
-8	stogo	stogas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	En=roof|SpaceAfter=No
+8	stogo	stogas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	En=roof|SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	3	punct	_	En=.
 
 # newpar id = 193
