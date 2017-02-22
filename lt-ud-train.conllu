@@ -285,7 +285,7 @@
 15	Aristofano	Aristofano	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	En=Aristofane
 16	komedija	komedija	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	En=comedy
 17	„	„	PUNCT	PUNCT	_	18	punct	_	En=„|SpaceAfter=No
-18	Debesys	Debesis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	flat	_	En=cloud|SpaceAfter=No
+18	Debesys	Debesis	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	16	flat	_	En=cloud|SpaceAfter=No
 19	“	“	PUNCT	PUNCT	_	18	punct	_	En=“|SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	14	punct	_	En=.
 
@@ -306,7 +306,7 @@
 12	už	už	ADP	UH	_	13	case	_	En=for
 13	komediją	komedija	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	En=comedy
 14	„	„	PUNCT	PUNCT	_	15	punct	_	En=„|SpaceAfter=No
-15	Butelis	Butelis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	En=bottle|SpaceAfter=No
+15	Butelis	Butelis	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	En=bottle|SpaceAfter=No
 16	“	“	PUNCT	PUNCT	_	15	punct	_	En=“
 17	(	(	PUNCT	PUNCT	_	21	punct	_	En=(|SpaceAfter=No
 18	apie	apie	ADP	UH	_	21	case	_	En=about
@@ -337,7 +337,7 @@
 5	tuo	tuo	ADV	RB	Degree=Pos	10	mark	_	En=meanwhile
 6	tarpu	tarpu	ADV	RB	Degree=Pos	5	fixed	_	En=while
 7	„	„	PUNCT	PUNCT	_	8	punct	_	En=„|SpaceAfter=No
-8	Debesys	Debesis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	En=cloud|SpaceAfter=No
+8	Debesys	Debesis	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	En=cloud|SpaceAfter=No
 9	“	“	PUNCT	PUNCT	_	8	punct	_	En=“
 10	skaitomi	skaityti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	En=read
 11	ligi	ligi	ADP	UH	_	12	case	_	En=up_to
@@ -1397,7 +1397,7 @@
 36	žydai	žydas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	ccomp	_	En=Jews
 37	(	(	PUNCT	PUNCT	_	39	punct	_	En=(|SpaceAfter=No
 38	pavyzdžiui	pavyzdys	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	39	parataxis	_	En=for_example
-39	Sorosas	Sorosas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	parataxis	_	En=Soros|SpaceAfter=No
+39	Sorosas	Sorosas	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	36	parataxis	_	En=Soros|SpaceAfter=No
 40	)	)	PUNCT	PUNCT	_	39	punct	_	En=)|SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	6	punct	_	En=.
 
@@ -1528,7 +1528,7 @@
 # sent_id = 53
 # text = Filosofas Romualdas Ozolas laimina ksenofobų grupes.
 1	Filosofas	filosofas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	En=philosopher
-2	Romualdas	Romualdas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	En=Romualdas
+2	Romualdas	Romualdas	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	En=Romualdas
 3	Ozolas	Ozolas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	En=Ozolas
 4	laimina	laiminti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=earn
 5	ksenofobų	ksenofobas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	En=xenophobe
@@ -1835,7 +1835,7 @@
 8	tendencijos	tendencija	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	En=tendency
 9	ryškėjo	ryškėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	En=appear
 10	dar	dar	ADV	RB	Degree=Pos	12	advmod	_	En=more
-11	Sąjūdžio	Sąjūdis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	En=union
+11	Sąjūdžio	Sąjūdis	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	En=union
 12	laikais	laikas	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	9	obl	_	En=time|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	20	punct	_	En=,
 14	nors	nors	SCONJ	UH	_	20	mark	_	En=though
@@ -2458,7 +2458,7 @@
 19	mus	mes	PRON	PRP	Case=Acc|Number=Plur|Person=1	15	obl	_	En=we
 20	(	(	PUNCT	PUNCT	_	25	punct	_	En=(|SpaceAfter=No
 21	mūsų	mūsų	DET	PRP$	_	22	det	_	En=our
-22	Bažnyčia	Bažnyčia	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	En=chirch
+22	Bažnyčia	Bažnyčia	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	En=chirch
 23	ne	ne	PART	UH	Polarity=Neg	25	advmod	_	En=not
 24	tokia	toks	DET	DT	Case=Nom|Gender=Fem|Number=Sing	25	det	_	En=that
 25	įtakinga	įtakingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	15	parataxis	_	En=influential|SpaceAfter=No
@@ -2496,8 +2496,8 @@
 17	grupė	grupė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	En=group|SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	20	punct	_	En=,
 19	nuo	nuo	ADP	UH	_	20	case	_	En=from
-20	Adamo	Adamo	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	En=Adam
-21	Michniko	Michniko	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	flat	_	En=Michnik
+20	Adamo	Adamo	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	En=Adam
+21	Michniko	Michniko	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	20	flat	_	En=Michnik
 22	ligi	ligi	ADP	UH	_	23	case	_	En=up_to
 23	Andrzejaus	Andrzejus	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	En=Andrzej
 24	Wajdos	Wajda	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	23	flat	_	En=Waida|SpaceAfter=No
@@ -2714,7 +2714,7 @@
 3	nacistams	nacistas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obj	_	En=nazist
 4	artimo	artimas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	En=
 5	mąstytojo	mąstytojas	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	8	nmod	_	En=thinker
-6	Carlo	Carlo	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	En=Carlo
+6	Carlo	Carlo	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	En=Carlo
 7	Schmidto	Schmidt	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	En=Schmidt
 8	doktorina	doktorina	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	En=|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
@@ -2904,7 +2904,7 @@
 20	tokia	toks	DET	DT	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	En=these|SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	En=,
 22	kaip	kaip	SCONJ	UH	_	23	mark	_	En=as
-23	Radio	Radio	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	acl	_	En=radio
+23	Radio	Radio	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	20	acl	_	En=radio
 24	Maryja	Maryja	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	23	flat	_	En=Maryja
 25	lenkų	lenkas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	En=Polish
 26	arba	arba	CCONJ	CC	_	27	cc	_	En=or
@@ -3770,7 +3770,7 @@
 # newpar id = 141
 # sent_id = 141
 # text = Sąjūdžio ir ankstyvosios nepriklausomybės laikais kartais atrodė, jog tie nesutarimai pamažu, bet sėkmingai sprendžiasi.
-1	Sąjūdžio	Sąjūdis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	En=Sajudis
+1	Sąjūdžio	Sąjūdis	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	En=Sajudis
 2	ir	ir	CCONJ	CC	_	3	cc	_	En=and
 3	ankstyvosios	ankstyvas	ADJ	JJL	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	En=early
 4	nepriklausomybės	nepriklausomybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	En=independence

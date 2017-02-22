@@ -143,7 +143,7 @@
 11	žmonėms	žmogus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	En=wife
 12	kaip	kaip	SCONJ	UH	_	13	case	_	En=how
 13	Mykolas	Mykolas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	En=Mykolas
-14	Riomeris	Riomeris	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	En=|SpaceAfter=No
+14	Riomeris	Riomeris	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	En=|SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	7	punct	_	En=.
 
 # newpar id = 151
