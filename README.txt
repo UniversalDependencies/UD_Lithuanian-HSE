@@ -1,7 +1,7 @@
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: manual
-Data available since: UD v2.1
+Data available since: UD v2.0
 License: CC BY-SA 4.0
 Genre: nonfiction news
 Contributors: Lyashevskaya, Olga; Sichinava, Dmitry
@@ -26,14 +26,14 @@ DATA SETS
 
 The treebank was split into training (60%), testing (20%), and development (20%) sets.
 
-training set: 
+training set:
 
-Tree count:  153 
-Word count:  3210 
-Token count: 3210 
+Tree count:  153
+Word count:  3210
+Token count: 3210
 Dep. relations: 36 of which 5 language specific
 POS tags: 16
-Category=value feature pairs: 43 
+Category=value feature pairs: 43
 
 dev set:
 
@@ -44,12 +44,12 @@ Dep. relations: 33 of which 5 language specific
 POS tags: 16
 Category=value feature pairs: 40
 
-test set: 
+test set:
 
-Tree count:  55 
-Word count:  1060 
-Token count: 1060 
-Dep. relations: 32 of which 3 language specific 
-POS tags: 16 
-Category=value feature pairs: 39 
+Tree count:  55
+Word count:  1060
+Token count: 1060
+Dep. relations: 32 of which 3 language specific
+POS tags: 16
+Category=value feature pairs: 39
 
