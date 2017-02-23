@@ -45,7 +45,7 @@
 # newpar id = 201
 # sent_id = 201
 # text = Be kita ko, nesibaigiantis sąskaitų suvedinėjimas su Rusija ir senųjų žaizdų demonstravimas turbūt jau darosi įkyrus gyventojų daugumai.
-1	Be	Be	ADP	UH	_	16	parataxis	_	En=without
+1	Be	be	ADP	UH	_	16	parataxis	_	En=without
 2	kita	kitas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	1	fixed	_	En=other
 3	ko	kas	PRON	WP	Case=Gen	1	fixed	_	En=something|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	5	punct	_	En=,
@@ -90,7 +90,7 @@
 # newpar id = 204
 # sent_id = 204
 # text = Savo nuomonės skleidimas ir gynimas, net jeigu prieš ją būtų tautos ar bent tautos intelektualų dauguma.
-1	Savo	Savo	DET	PRP$	_	2	det	_	En=one's
+1	Savo	savo	DET	PRP$	_	2	det	_	En=one's
 2	nuomonės	nuomonė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	En=opinion
 3	skleidimas	skleidimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	En=spreading
 4	ir	ir	CCONJ	CC	_	5	cc	_	En=and
@@ -130,7 +130,7 @@
 # newpar id = 206
 # sent_id = 206
 # text = Į tai, galimas daiktas, bus pasakyta: „Jūs reikalaujate tolerancijos, bet jūs netolerantiški mums, tikriesiems Lietuvos patriotams“.
-1	Į	Į	ADP	UH	_	2	case	_	En=to
+1	Į	į	ADP	UH	_	2	case	_	En=to
 2	tai	tai	PRON	DT	_	8	obl	_	En=this|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	En=,
 4	galimas	galėti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	En=can
@@ -158,7 +158,7 @@
 # newpar id = 207
 # sent_id = 207
 # text = Taip nėra: mes tik draudžiame drausti, draudžiame prievartauti.
-1	Taip	Taip	PART	UH	_	0	root	_	En=so
+1	Taip	taip	PART	UH	_	0	root	_	En=so
 2	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	En=be|SpaceAfter=No
 3	:	:	PUNCT	PUNCT	_	6	punct	_	En=:
 4	mes	mes	PRON	PRP	Case=Nom|Number=Plur|Person=1	6	nsubj	_	En=we
@@ -273,7 +273,7 @@
 # newpar id = 213
 # sent_id = 213
 # text = O jei bandysi įvesti fašistoidinę, neototalitarinę tvarką – turėsi skaitytis ne tik su Briuselio nepasitenkinimu, bet pirmiausia su pilietiniu nepaklusnumu ir pasipriešinimu.
-1	O	O	CCONJ	CC	_	10	cc	_	En=and
+1	O	o	CCONJ	CC	_	10	cc	_	En=and
 2	jei	jei	SCONJ	UH	_	3	mark	_	En=if
 3	bandysi	bandyti	VERB	VBC	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Reflex=No|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	En=try
 4	įvesti	įvesti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	3	xcomp	_	En=introduce
@@ -326,7 +326,7 @@
 # newpar id = 215
 # sent_id = 215
 # text = Bet reikia prie jos prisidėti, o ne pasiduoti tiems, kas bando įamžinti prieštvaninį mentalitetą.
-1	Bet	Bet	CCONJ	CC	_	2	cc	_	En=but
+1	Bet	bet	CCONJ	CC	_	2	cc	_	En=but
 2	reikia	reikėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=need
 3	prie	prie	ADP	UH	_	4	case	_	En=to
 4	jos	ji	PRON	PRP	Case=Gen|Gender=Fem|Number=Sing|Person=3	5	obl	_	En=they
@@ -344,14 +344,14 @@
 16	mentalitetą	mentalitetas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	En=mentality|SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	2	punct	_	En=.
 
-# title_lt = Paskutiniai žemyn smingančio Tu-154 kapitono padėjėjo žodžiai fiksuoti lietuvišku prietaisu
-# title_en = 
-# title_ru = Последние слова пилотов Ту-154 записал произведенный в Литве прибор
-# ref = <ref>http://www.delfi.lt/news/daily/lithuania/paskutiniai-zemyn-smingancio-tu-154-kapitono-padejejo-zodziai-fiksuoti-lietuvisku-prietaisu.d?id=73337760</ref>
 # newdoc id = lt-ru-5
 # newpar id = lt-ru-5-p1
 # sent_id = lt-ru-5-p1-1
 # text = Paskutiniai žemyn smingančio Tu-154 kapitono padėjėjo žodžiai fiksuoti lietuvišku prietaisu
+# title_lt = Paskutiniai žemyn smingančio Tu-154 kapitono padėjėjo žodžiai fiksuoti lietuvišku prietaisu
+# title_en =
+# title_ru = Последние слова пилотов Ту-154 записал произведенный в Литве прибор
+# ref = <ref>http://www.delfi.lt/news/daily/lithuania/paskutiniai-zemyn-smingancio-tu-154-kapitono-padejejo-zodziai-fiksuoti-lietuvisku-prietaisu.d?id=73337760</ref>
 1	Paskutiniai	paskutinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	En=last
 2	žemyn	žemyn	ADV	RB	Degree=Pos	3	advmod	_	En=down
 3	smingančio	smigti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	En=fall
