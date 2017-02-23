@@ -95,8 +95,8 @@
 3	skleidimas	skleidimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	En=spreading
 4	ir	ir	CCONJ	CC	_	5	cc	_	En=and
 5	gynimas	gynimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	En=advocacy|SpaceAfter=No
-6	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
-7	net	net	PART	UH	_	9	advmod:emph	_	En=even
+6	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
+7	net	net	PART	UH	_	10	advmod:emph	_	En=even
 8	jeigu	jeigu	SCONJ	UH	_	10	mark	_	En=if
 9	prieš	prieš	ADP	UH	_	10	case	_	En=against
 10	ją	ji	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	advcl	_	En=it
@@ -386,8 +386,8 @@
 18	“	“	PUNCT	PUNCT	_	17	punct	_	En=“
 19	duomenis	duomuo	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	En=data|SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
-21	tarp	tarp	ADP	UH	_	27	cc	_	En=including
-22	jų	jie	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	21	fixed	_	En=they
+21	tarp	tarp	ADP	UH	_	22	case	_	En=including
+22	jų	jie	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	27	obl	_	En=they
 23	ir	ir	PART	UH	_	27	advmod:emph	_	En=and
 24	sudužusio	sudužti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	25	amod	_	En=crash
 25	orlaivio	orlaivis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	En=aircraft
@@ -432,7 +432,7 @@
 16	lėktuvo	lėktuvas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	En=airplane
 17	Tu-154	tu-154	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	16	appos	_	En=Tu-154
 18	kapitono	kapitonas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	En=captain
-19	padėjėjo	padėjėjas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	appos	_	En=assistant
+19	padėjėjo	padėjėjas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	En=assistant
 20	Aleksandro	Aleksandras	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	En=Alexander
 21	Rovenskio	Rovenskis	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	20	flat	_	En=Rovensky
 22	žodžiai	žodis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	En=word|SpaceAfter=No
@@ -442,7 +442,7 @@
 26	savirašis	savirašis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	En=self-writing
 27	prietaisas	prietaisas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	En=device
 28	MARS	MARS	PROPN	NNP	_	27	appos	_	En=MARS
-29	BM	BM	PROPN	NNP	_	27	appos	_	En=BM|SpaceAfter=No
+29	BM	BM	PROPN	NNP	_	27	flat	_	En=BM|SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	2	punct	_	En=.
 
 # sent_id = lt-ru-5-p3-5
@@ -548,12 +548,12 @@
 # newpar id = lt-ru-5-p5
 # sent_id = lt-ru-5-p5-10
 # text = Vis dėlto Rusijos narai ne tik ištraukė tik kiek aplamdytą savirašį MARS BM prietaisą, bet ir atidarę apsauginę kapsulę viduje rado nepažeistą magnetofoną.
-1	Vis	vis%dėlto	SCONJ	UH	_	22	mark	_	En=however
-2	dėlto	vis%dėlto	CCONJ	CC	_	3	cc	_	En=however
-3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	22	nsubj	_	En=Russia
-4	narai	naras	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	En=diver
-5	ne	ne%tik	CCONJ	CC	_	3	cc	_	En=not_only
-6	tik	ne%tik	PART	UH	_	3	cc	_	En=not_only
+1	Vis	vis%dėlto	SCONJ	UH	_	7	mark	_	En=however
+2	dėlto	vis%dėlto	CCONJ	CC	_	1	fixed	_	En=however
+3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	En=Russia
+4	narai	naras	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	En=diver
+5	ne	ne%tik	CCONJ	CC	_	7	cc	_	En=not_only
+6	tik	ne%tik	PART	UH	_	5	fixed	_	En=not_only
 7	ištraukė	ištraukti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=pull_out
 8	tik	tik	ADV	RB	Degree=Pos	10	advmod	_	En=only
 9	kiek	kiek	ADV	RB	Degree=Pos	10	advmod	_	En=how_much
@@ -736,7 +736,7 @@
 7	dabartinis	dabartinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	En=current
 8	socialdemokratų	socialdemokratas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	En=social-democratic
 9	partijos	partija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	En=party
-10	politikas	politikas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	En=politician
+10	politikas	politikas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	En=politician
 11	Algirdas	Algirdas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	En=Algirdas
 12	Sysas	Sysas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	En=Sysas
 13	pasakojo	pasakoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=tell
@@ -920,7 +920,7 @@
 14	magnetofonai	magnetofonas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	En=player
 15	prietaisams	prietaisas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	En=device
 16	MARS	MARS	PROPN	NNP	_	14	appos	_	En=MARS
-17	BM	BM	PROPN	NNP	_	16	appos	_	En=BM|SpaceAfter=No
+17	BM	BM	PROPN	NNP	_	16	flat	_	En=BM|SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	21	punct	_	En=,
 19	kuriuos	kuris	PRON	WPA	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	En=which
 20	kruopščiai	kruopščiai	ADV	RB	Degree=Pos	21	advmod	_	En=thoroughly
@@ -980,7 +980,7 @@
 9	prietaisai	prietaisas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	En=device|SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
 11	MARS	MARS	PROPN	NNP	_	13	nsubj	_	En=MARS
-12	BM	BM	PROPN	NNP	_	11	appos	_	En=BM
+12	BM	BM	PROPN	NNP	_	11	flat	_	En=BM
 13	įrašinėdavo	įrašinėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=PastIter|VerbForm=Fin|Voice=Act	0	root	_	En=write
 14	30	30	NUM	CD	_	15	nummod	_	En=30
 15	minučių	minutė	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	En=minute
@@ -1098,7 +1098,7 @@
 # sent_id = lt-ru-5-p17-33
 # text = MARS BM garsą užtikrina trys įtaisyti mikrofonai.
 1	MARS	MARS	PROPN	NNP	_	3	nmod	_	En=MARS
-2	BM	BM	PROPN	NNP	_	1	appos	_	En=BM
+2	BM	BM	PROPN	NNP	_	1	flat	_	En=BM
 3	garsą	garsas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	En=sound
 4	užtikrina	užtikrinti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=provide
 5	trys	trys	NUM	CD	Case=Nom|Gender=Masc	7	nummod	_	En=three
@@ -1136,12 +1136,12 @@
 
 # sent_id = lt-ru-5-p17-35
 # text = Bet kokiu atveju trijų MARS BM mikrofonų užtenka, mat, anot R. Beniušio, „Vilma“ gamino itin jautrią įrangą – tokios troško ir pasiklausymo aparatūrą naudojęs KGB.
-1	Bet	bet	ADP	UH	_	3	cc	_	En=anyway
+1	Bet	bet	CCONJ	CC	_	8	cc	_	En=but
 2	kokiu	koks	DET	WPA	Case=Ins|Gender=Masc|Number=Sing	3	det	_	En=any
 3	atveju	atvejis	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	8	advmod	_	En=case
 4	trijų	trys	NUM	CD	Case=Gen|Gender=Masc	7	nummod	_	En=three
 5	MARS	MARS	PROPN	NNP	_	7	nmod	_	En=MARS
-6	BM	BM	PROPN	NNP	_	5	appos	_	En=BM
+6	BM	BM	PROPN	NNP	_	5	flat	_	En=BM
 7	mikrofonų	mikrofonas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	En=microphone
 8	užtenka	užtekti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=be_enought|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
@@ -1192,10 +1192,10 @@
 # sent_id = lt-ru-5-p18-37
 # text = Ir nors oficialios „Tu-154“ tragedijos priežastys iki šiol neįvardytos, realiausia versija laikoma pilotų klaida.
 1	Ir	ir	CCONJ	CC	_	15	cc	_	En=and
-2	nors	nors	PART	UH	_	11	cc	_	En=though
+2	nors	nors	PART	UH	_	11	mark	_	En=though
 3	oficialios	oficialus	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	En=official
 4	„	„	PUNCT	PUNCT	_	5	punct	_	En=„|SpaceAfter=No
-5	Tu-154	tu-154	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	En=Tu-154|SpaceAfter=No
+5	Tu-154	tu-154	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	En=Tu-154|SpaceAfter=No
 6	“	“	PUNCT	PUNCT	_	5	punct	_	En=“
 7	tragedijos	tragedija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	En=tragedy
 8	priežastys	priežastis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	En=reason
@@ -1230,22 +1230,22 @@
 16	tiesiog	tiesiog	ADV	RB	Degree=Pos	17	advmod	_	En=just
 17	supainioti	supainioti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	15	xcomp	_	En=mess
 18	svirtis	svirtis	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	En=equalizer|SpaceAfter=No
-19	,	,	PUNCT	PUNCT	_	27	punct	_	En=,
-20	o	o	CCONJ	CC	_	27	cc	_	En=and
-21	tai	tai	PART	UH	_	27	discourse	_	En=thus
-22	padaryti	padaryti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	27	xcomp	_	En=make
-23	sudėtingai	sudėtingas	ADV	RB	Degree=Pos	24	advmod	_	En=difficult
+19	,	,	PUNCT	PUNCT	_	22	punct	_	En=,
+20	o	o	CCONJ	CC	_	22	cc	_	En=and
+21	tai	tai	PART	UH	_	22	obj	_	En=that
+22	padaryti	padaryti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	17	conj	_	En=make
+23	sudėtingai	sudėtingai	ADV	RB	Degree=Pos	22	advmod	_	En=difficult
 24	valdomame	valdyti	VERB	VBNL	Case=Loc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	En=administer
 25	Tu-154	tu-154	PROPN	NNP	Case=Loc|Gender=Masc|Number=Sing	27	obl	_	En=Tu-154
 26	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	En=be
-27	sudėtinga	sudėtingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	En=complex
+27	sudėtinga	sudėtingas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	acl	_	En=complex
 28	net	net	PART	UH	_	30	advmod:emph	_	En=even
 29	patyrusiems	patirti	VERB	VBNL	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=No|Tense=PastSimp|VerbForm=Part|Voice=Act	30	amod	_	En=experienced
 30	pilotams	pilotas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	27	nmod	_	En=pilot
 31	–	–	PUNCT	PUNCT	_	36	punct	_	En=_
 32	aviacijos	aviacija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	En=aviation
 33	istorijoje	istorija	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	36	obl	_	En=history
-34	jau	jau	PART	UH	_	35	cc	_	En=already
+34	jau	jau	PART	UH	_	36	advmod:emph	_	En=already
 35	yra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	36	cop	_	En=be
 36	nesyk	syti	VERB	VBC	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Reflex=No|VerbForm=Fin|Voice=Act	30	parataxis	_	En=lots
 37	pasitaikę	pasitaikyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	38	amod	_	En=mention
