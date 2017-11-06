@@ -1,17 +1,14 @@
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: manual
-Data available since: UD v2.0
-License: CC BY-SA 4.0
-Genre: nonfiction news
-Contributors: Lyashevskaya, Olga; Sichinava, Dmitry
-Contact: olesar@yandex.ru
-===============================================================================
+# Summary
 
-# Lithuanian treebank
-
-Annotated manually (dependencies) using the Morphological Annotator by CCL, Vytautas Magnus University (http://tekstynas.vdu.lt/) and manual disambiguation.
+Lithuanian treebank annotated manually (dependencies) using the Morphological Annotator by CCL, Vytautas Magnus University (http://tekstynas.vdu.lt/) and manual disambiguation.
 A pilot version which includes news and an essay by Tomas Venclova is available here.
+
+# Changelog
+
+* 2017-11-15 v2.1
+  * No changes.
+* 2017-03-01 v2.0
+  * Initial UD release.
 
 BASIC STATISTICS
 
@@ -53,3 +50,11 @@ Dep. relations: 32 of which 3 language specific
 POS tags: 16
 Category=value feature pairs: 39
 
+=== Machine-readable metadata =================================================
+Data available since: UD v2.0
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: nonfiction news
+Contributors: Lyashevskaya, Olga; Sichinava, Dmitry
+Contact: olesar@yandex.ru
+===============================================================================
