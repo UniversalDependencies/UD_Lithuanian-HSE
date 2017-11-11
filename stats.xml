@@ -10,7 +10,7 @@
   <lemmas unique="1593" /><!-- ,, ., ir, būti, –, “, „, kad, bet, ne, kuris, jis, jie, tas, o -->
   <forms unique="2321" /><!-- ,, ., ir, –, “, „, kad, bet, ne, o, buvo, yra, su, tai, ( -->
   <fusions unique="0" /><!--  -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">414</tag><!-- kitas, lietuvis, tautinis, vienas, geras, pirmas, svarbus, tikras, naujas, didelis -->
     <tag name="ADP">194</tag><!-- su, į, iš, apie, be, nuo, už, prieš, dėl, ligi -->
@@ -29,7 +29,7 @@
     <tag name="VERB">711</tag><!-- galėti, būti, žinoti, turėti, sakyti, laikyti, vadinti, kalbėti, bandyti, gaminti -->
     <tag name="X">10</tag><!-- definitione, for, him, pardoned, summa, summarum, time, w, well, writing -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="43">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">382</feat><!-- juos, mus, tautą, ją, kurį, tą, jį, ką, man, Lietuvą -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">137</feat><!-- mums, tautai, Rusijai, jam, jiems, žurnalistui, Andriui, Lietuvai, kuriems, man -->
