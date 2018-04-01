@@ -5,6 +5,8 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Lithuanian to UD_Lithuanian-HSE.
 * 2017-11-15 v2.1
   * No changes.
 * 2017-03-01 v2.0
@@ -50,11 +52,21 @@ Dep. relations: 32 of which 3 language specific
 POS tags: 16
 Category=value feature pairs: 39
 
-=== Machine-readable metadata =================================================
+
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.0
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: manual native
 Contributors: Lyashevskaya, Olga; Sichinava, Dmitry
+Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
+</pre>
