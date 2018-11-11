@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Lithuanian-HSE:
-commit 8887f52c5c631b616cf2a212ccdf2490a8a9d36f
-Merge: 69e5b8a 9eb93d1
+commit 1321dab45d2460085dd02d0e213b88d4b3ec1786
+Merge: 0b8d351 5d5f87a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 5356 of 5356 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.35643485565785.
