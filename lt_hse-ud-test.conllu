@@ -302,7 +302,7 @@
 # newpar id = 214
 # sent_id = 214
 # text = Summa summarum lieku optimistas: po nepriklausomybės atgavimo, po ekonominės bei politinės transformacijos ateis laikas ir mentalinei transformacijai.
-1	Summa	summa	X	X	_	3	advmod	_	En=summa
+1	Summa	summa	X	X	_	3	parataxis	_	En=summa
 2	summarum	summarum	X	X	_	1	flat	_	En=summarum
 3	lieku	likti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=remain
 4	optimistas	optimistas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	En=optimist|SpaceAfter=No
@@ -476,9 +476,9 @@
 9	duomenis	duomuo	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	En=data
 10	analizuoja	analizuoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	En=analize
 11	jau	jau	PART	UH	_	12	advmod:emph	_	En=already
-12	daugiau	daug	ADV	RBR	Degree=Cmp	14	nummod	_	En=many
-13	kaip	kaip	SCONJ	UH	_	12	fixed	_	En=how
-14	savaitę	savaitė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	En=week|SpaceAfter=No
+12	daugiau	daug	ADV	RBR	Degree=Cmp	10	advmod	_	En=many
+13	kaip	kaip	SCONJ	UH	_	14	mark	_	En=how
+14	savaitę	savaitė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	En=week|SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	7	punct	_	En=.
 
 # newpar id = lt-ru-5-p4
@@ -524,9 +524,9 @@
 19	smūgius	smūgis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	En=hit
 20	katastrofų	katastrofa	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	En=catastrophy
 21	metu	metas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	En=time|SpaceAfter=No
-22	,	,	PUNCT	PUNCT	_	12	punct	_	En=,
+22	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
 23	juos	jie	PRON	PRP	Case=Acc|Number=Plur|Person=3	24	obj	_	En=he
-24	aptikti	aptikti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	19	acl	_	En=find
+24	aptikti	aptikti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	30	csubj	_	En=find
 25	jūros	jūra	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	En=sea
 26	dugne	dugnas	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	24	obl	_	En=bed
 27	neretai	neretai	ADV	RB	Degree=Pos|Polarity=Neg	30	advmod	_	En=frequently
@@ -824,7 +824,7 @@
 16	pasakojo	pasakoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=tell
 17	A.	a.	PROPN	NNP	_	16	nsubj	_	En=A.
 18	Sysas	Sysas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	17	flat	_	En=Sysas|SpaceAfter=No
-19	.	.	PUNCT	PUNCT	_	6	punct	_	En=.
+19	.	.	PUNCT	PUNCT	_	16	punct	_	En=.
 
 # sent_id = lt-ru-5-p10-22
 # text = Pradėjęs dirbti kaip kasetinių magnetofonų derintojas jis vėliau tapo realizacijos skyriaus bei cecho vadovo pavaduotoju.
@@ -1007,7 +1007,7 @@
 3	prasmės	prasmė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	En=meaning
 4	įrašinėti	įrašinėti	VERB	VB	Polarity=Pos|Reflex=No|VerbForm=Inf|Voice=Act	2	xcomp	_	En=write
 5	daugiau	daug	ADV	RBR	Degree=Cmp	4	advmod	_	En=many|SpaceAfter=No
-6	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
+6	,	,	PUNCT	PUNCT	_	13	punct	_	En=,
 7	nes	nes	SCONJ	UH	_	13	mark	_	En=because
 8	jei	jei	SCONJ	UH	_	10	mark	_	En=if
 9	kas	kas	PRON	WP	Case=Nom	10	nsubj	_	En=something
@@ -1073,7 +1073,7 @@
 34	būtent	būtent	PART	UH	_	36	advmod:emph	_	En=in_particular
 35	pilotų	pilotas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	En=pilot
 36	pokalbiai	pokalbis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	En=conversation|SpaceAfter=No
-37	.	.	PUNCT	PUNCT	_	5	punct	_	En=.
+37	.	.	PUNCT	PUNCT	_	8	punct	_	En=.
 
 # sent_id = lt-ru-5-p16-32
 # text = Įrašuose esą negirdėti jokių pašalinių garsų, kurie galėtų reikšti bombos sprogimą arba lėktuvo užgrobimą.
@@ -1122,7 +1122,7 @@
 12	gausu	gausas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	0	root	_	En=plenty
 13	pašalinio	pašalinis	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	En=side
 14	triukšmo	triukšmas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	En=noise|SpaceAfter=No
-15	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
+15	,	,	PUNCT	PUNCT	_	17	punct	_	En=,
 16	jis	jis	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	En=which
 17	įprastas	įprastas	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	En=characteristic
 18	triukšmingam	triukšmingas	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	En=noisy
@@ -1138,7 +1138,7 @@
 # text = Bet kokiu atveju trijų MARS BM mikrofonų užtenka, mat, anot R. Beniušio, „Vilma“ gamino itin jautrią įrangą – tokios troško ir pasiklausymo aparatūrą naudojęs KGB.
 1	Bet	bet	CCONJ	CC	_	8	cc	_	En=but
 2	kokiu	koks	DET	WPA	Case=Ins|Gender=Masc|Number=Sing	3	det	_	En=any
-3	atveju	atvejis	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	8	advmod	_	En=case
+3	atveju	atvejis	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	8	obl	_	En=case
 4	trijų	trys	NUM	CD	Case=Gen|Gender=Masc	7	nummod	_	En=three
 5	MARS	MARS	PROPN	NNP	_	7	nmod	_	En=MARS
 6	BM	BM	PROPN	NNP	_	5	flat	_	En=BM
@@ -1146,11 +1146,11 @@
 8	užtenka	užtekti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=be_enought|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
 10	mat	mat	PART	UH	_	19	mark	_	En=because|SpaceAfter=No
-11	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
+11	,	,	PUNCT	PUNCT	_	13	punct	_	En=,
 12	anot	anot	ADP	UH	_	13	case	_	En=according_to
 13	R.	r.	PROPN	NNP	_	19	parataxis	_	En=R.
 14	Beniušio	Beniušis	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	13	flat	_	En=Beniušio|SpaceAfter=No
-15	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
+15	,	,	PUNCT	PUNCT	_	13	punct	_	En=,
 16	„	„	PUNCT	PUNCT	_	17	punct	_	En=„|SpaceAfter=No
 17	Vilma	Vilma	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	En=Vilma|SpaceAfter=No
 18	“	“	PUNCT	PUNCT	_	17	punct	_	En=“
