@@ -319,7 +319,7 @@
 9	etnines	etninis	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	En=ethnic
 10	mažumas	mažumas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	En=smallness
 11	nelojaliomis	nelojalus	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg	5	iobj	_	En=not_loyal
-12	ex	ex	ADP	UH	_	5	advmod	_	En=by
+12	ex	ex	X	UH	_	5	obl	_	En=by
 13	definitione	definitione	X	X	_	12	flat	_	En=definition|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	19	punct	_	En=,
 15	o	o	CCONJ	CC	_	19	cc	_	En=and
@@ -328,7 +328,7 @@
 18	bendruomenių	bendruomenė	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	En=community
 19	vadovus	vadovas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	En=administrator
 20	–	–	PUNCT	PUNCT	_	23	punct	_	En=–
-21	paprasčiausia	paprasčiausias	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	advmod	_	En=mere
+21	paprasčiausia	paprasčiausias	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nmod	_	En=mere
 22	penktąja	penktas	ADJ	ORD	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	En=fifth
 23	kolona	kolona	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	orphan	_	En=colon|SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	5	punct	_	En=.
@@ -570,7 +570,7 @@
 5	kad	kad	SCONJ	UH	_	9	mark	_	En=that
 6	šioje	šis	DET	DT	Case=Loc|Gender=Fem|Number=Sing	7	det	_	En=this
 7	srityje	sritis	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	En=domain
-8	buvo	būti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	En=be
+8	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	En=be
 9	padarytos	padaryti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	En=admit
 10	dvi	du	NUM	CD	Case=Acc|Gender=Fem	12	nummod	_	En=two
 11	didelės	didelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	En=big
@@ -658,7 +658,7 @@
 6	subjektyviai	subjektyviai	ADV	RB	Degree=Pos	8	advmod	_	En=subjectively
 7	jie	jie	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	8	nsubj	_	En=they
 8	tokie	toks	PRON	DT	Case=Nom|Gender=Masc|Number=Plur	4	parataxis	_	En=such
-9	ir	ir	PART	UH	_	10	advmod:emph	_	En=and
+9	ir	ir	PART	UH	_	8	advmod:emph	_	En=and
 10	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	En=be|SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	8	punct	_	En=,
 12	-	-	PUNCT	PUNCT	_	14	punct	_	En=-
@@ -723,7 +723,7 @@
 23	Stasys	Stasys	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	En=Stasys
 24	Lozoraitis	Lozoraitis	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	23	flat	_	En=Lozoraitis|SpaceAfter=No
 25	,	,	PUNCT	PUNCT	_	30	punct	_	En=,
-26	tuo	tas	DET	DT	Case=Ins	27	mark	_	En=meanwhile
+26	tuo	tas	DET	DT	Case=Ins	27	det	_	En=meanwhile
 27	metu	metas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	30	obl	_	En=years
 28	nominalus	nominalas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	amod	_	En=nominal
 29	valstybės	valstybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	En=state
@@ -798,7 +798,7 @@
 9	,	,	PUNCT	PUNCT	_	16	punct	_	En=,
 10	bet	bet	CCONJ	CC	_	16	cc	_	En=but
 11	tikrai	tikrai	ADV	RB	Degree=Pos	16	advmod	_	En=actually
-12	nė	nė	PART	UH	Polarity=Neg	16	nummod:gov	_	En=not
+12	nė	nė	PART	UH	Polarity=Neg	16	amod	_	En=not
 13	vienas	vienas	ADJ	ORD	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	fixed	_	En=one
 14	jų	jie	PRON	PRP	Case=Gen|Number=Plur|Person=3	16	nsubj	_	En=they
 15	nebūtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|Reflex=No|VerbForm=Fin|Voice=Act	16	aux	_	En=be
