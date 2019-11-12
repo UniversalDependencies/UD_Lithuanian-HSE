@@ -16,21 +16,21 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">414</tag><!-- kitas, lietuvis, tautinis, vienas, geras, pirmas, svarbus, tikras, naujas, didelis -->
-    <tag name="ADP">194</tag><!-- su, į, iš, apie, be, nuo, už, prieš, dėl, ligi -->
+    <tag name="ADP">193</tag><!-- su, į, iš, apie, be, nuo, už, prieš, dėl, ligi -->
     <tag name="ADV">321</tag><!-- tik, dar, daug, labai, šiandien, taip, visada, vėlai, dabar, pirmiausia -->
-    <tag name="AUX">108</tag><!-- būti -->
+    <tag name="AUX">112</tag><!-- būti -->
     <tag name="CCONJ">311</tag><!-- ir, bet, o, ar, bei, arba, nei, ne, tačiau, taigi -->
-    <tag name="DET">164</tag><!-- tas, toks, mūsų, savo, visas, jų, šis, jo, koks, jos -->
+    <tag name="DET">166</tag><!-- tas, toks, mūsų, savo, visas, jų, šis, jo, koks, jos -->
     <tag name="INTJ">7</tag><!-- deja, su*a, vajėzau -->
     <tag name="NOUN">1105</tag><!-- tauta, laikas, metai, pasaulis, lėktuvas, prietaisas, tiesa, valstybė, žmogus, interesas -->
     <tag name="NUM">24</tag><!-- trys, du, šimtas, penkiasdešimt, 1994, 30, 4151, 52, 7, 92 -->
-    <tag name="PART">169</tag><!-- ne, ir, beje, net, taip, jau, bent, gal, netgi, nė -->
-    <tag name="PRON">256</tag><!-- kuris, jie, jis, ji, mes, tai, kas, tas, aš, savęs -->
+    <tag name="PART">168</tag><!-- ne, ir, beje, net, taip, jau, bent, gal, netgi, nė -->
+    <tag name="PRON">254</tag><!-- kuris, jie, jis, ji, mes, tai, kas, tas, aš, savęs -->
     <tag name="PROPN">323</tag><!-- Lietuva, Sokratas, Rusija, Strepsiadas, Europa, Vilma, tu-154, BM, MARS, Vilnius -->
     <tag name="PUNCT">1093</tag><!-- ,, ., –, “, „, (, ), :, -, ! -->
     <tag name="SCONJ">146</tag><!-- kad, kaip, jei, nors, nes, jeigu, negu, jog, tai, nebent -->
-    <tag name="VERB">711</tag><!-- galėti, būti, žinoti, turėti, sakyti, laikyti, vadinti, kalbėti, bandyti, gaminti -->
-    <tag name="X">10</tag><!-- definitione, for, him, pardoned, summa, summarum, time, w, well, writing -->
+    <tag name="VERB">708</tag><!-- galėti, būti, žinoti, turėti, sakyti, laikyti, vadinti, kalbėti, bandyti, gaminti -->
+    <tag name="X">11</tag><!-- definitione, ex, for, him, pardoned, summa, summarum, time, w, well -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="43">
@@ -80,42 +80,42 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="37">
-    <dep name="acl">48</dep>
+    <dep name="acl">47</dep>
     <dep name="acl:relcl">46</dep>
-    <dep name="advcl">73</dep>
-    <dep name="advmod">294</dep>
+    <dep name="advcl">74</dep>
+    <dep name="advmod">283</dep>
     <dep name="advmod:emph">81</dep>
-    <dep name="amod">323</dep>
+    <dep name="amod">324</dep>
     <dep name="appos">46</dep>
-    <dep name="aux">35</dep>
+    <dep name="aux">33</dep>
     <dep name="aux:pass">2</dep>
     <dep name="case">198</dep>
     <dep name="cc">296</dep>
-    <dep name="ccomp">49</dep>
+    <dep name="ccomp">48</dep>
     <dep name="compound">7</dep>
-    <dep name="conj">371</dep>
+    <dep name="conj">372</dep>
     <dep name="cop">76</dep>
-    <dep name="csubj">6</dep>
-    <dep name="det">140</dep>
+    <dep name="csubj">7</dep>
+    <dep name="det">143</dep>
     <dep name="discourse">3</dep>
     <dep name="dislocated">1</dep>
-    <dep name="fixed">88</dep>
+    <dep name="fixed">87</dep>
     <dep name="flat">53</dep>
     <dep name="iobj">66</dep>
     <dep name="list">2</dep>
-    <dep name="mark">135</dep>
-    <dep name="nmod">371</dep>
-    <dep name="nsubj">369</dep>
-    <dep name="nummod">12</dep>
-    <dep name="nummod:gov">6</dep>
+    <dep name="mark">137</dep>
+    <dep name="nmod">372</dep>
+    <dep name="nsubj">370</dep>
+    <dep name="nummod">11</dep>
+    <dep name="nummod:gov">5</dep>
     <dep name="obj">262</dep>
-    <dep name="obl">252</dep>
+    <dep name="obl">257</dep>
     <dep name="obl:agent">7</dep>
     <dep name="orphan">3</dep>
-    <dep name="parataxis">168</dep>
+    <dep name="parataxis">169</dep>
     <dep name="punct">1093</dep>
     <dep name="root">263</dep>
     <dep name="vocative">2</dep>
-    <dep name="xcomp">109</dep>
+    <dep name="xcomp">110</dep>
   </deps>
 </treebank>
