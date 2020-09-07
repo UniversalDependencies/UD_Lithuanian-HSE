@@ -759,7 +759,7 @@
 # newpar id = lt-ru-5-p10
 # sent_id = lt-ru-5-p10-19
 # text = „Tai buvo aukštos kokybės aparatai, maksimaliai primityvūs, bet užtikrinantys galimybę gauti informaciją.
-1	„	„	PUNCT	PUNCT	_	3	punct	_	En=„|SpaceAfter=No
+1	„	„	PUNCT	PUNCT	_	6	punct	_	En=„|SpaceAfter=No
 2	Tai	tai	PRON	DT	_	6	nsubj	_	En=this
 3	buvo	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=No|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	En=be
 4	aukštos	aukštas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	En=high
