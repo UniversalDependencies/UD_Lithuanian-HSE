@@ -3207,7 +3207,7 @@
 8	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
 9	taigi	taigi	CCONJ	CC	_	10	cc	_	En=so
 10	vienintelis	vienintelis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	En=alone
-11	priimtinas	priimti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Necess	12	amod	_	En=possible
+11	priimtinas	priimti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Mood=Nec|Number=Sing|Polarity=Pos|VerbForm=Part	12	amod	_	En=possible
 12	požiūris	požiūris	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	En=viewpoint|SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	12	punct	_	En=.
 
@@ -3405,7 +3405,7 @@
 8	valstybės	valstybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	En=state
 9	išdavimas	išdavimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	En=betrace|SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	11	punct	_	En=,
-11	baustinas	bausti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Necess	9	acl	_	En=punishable
+11	baustinas	bausti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Mood=Nec|Number=Sing|Polarity=Pos|VerbForm=Part	9	acl	_	En=punishable
 12	griežčiausiomis	griežtas	ADJ	JJS	Case=Ins|Definite=Ind|Degree=Sup|Gender=Fem|Number=Plur	13	amod	_	En=hard
 13	bausmėmis	bausmė	NOUN	NN	Case=Ins|Gender=Fem|Number=Plur	11	iobj	_	En=punishment
 14	ligi	ligi	ADP	UH	_	16	case	_	En=up_to
@@ -3626,7 +3626,7 @@
 7	iš	iš	ADP	UH	_	8	case	_	En=from
 8	valstybės	valstybė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	En=state
 9	–	–	PUNCT	PUNCT	_	10	punct	_	En=–
-10	nepriimtina	priimti	VERB	VBG	Case=Ins|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Necess	11	amod	_	En=acceptable
+10	nepriimtina	priimti	VERB	VBG	Case=Ins|Definite=Ind|Gender=Fem|Mood=Nec|Number=Sing|Polarity=Neg|VerbForm=Part	11	amod	_	En=acceptable
 11	praktika	praktika	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	En=practice|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	15	punct	_	En=,
 13	nes	nes	SCONJ	UH	_	15	mark	_	En=because

@@ -533,7 +533,7 @@
 5	kad	kad	SCONJ	UH	_	6	mark	_	En=that
 6	suvoktume	suvokti	VERB	VBC	Mood=Cnd|Number=Plur|Person=1|Polarity=Pos|VerbForm=Fin|Voice=Pass	3	advcl	_	En=realise|SpaceAfter=No
 7	:	:	PUNCT	PUNCT	_	8	punct	_	En=:
-8	neleistina	leisti	VERB	PRED	Definite=Ind|Gender=Neut|Polarity=Neg|VerbForm=Part|Voice=Necess	6	parataxis	_	En=permit
+8	neleistina	leisti	VERB	PRED	Definite=Ind|Gender=Neut|Mood=Nec|Polarity=Neg|VerbForm=Part	6	parataxis	_	En=permit
 9	teisinti	teisinti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	8	xcomp	_	En=justify
 10	ir	ir	CCONJ	CC	_	11	cc	_	En=and
 11	remti	remti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	9	conj	_	En=support
@@ -599,7 +599,7 @@
 # newpar id = 170
 # sent_id = 170
 # text = Būtina be jokių išlygų pareikšti, kad naujoji Lietuva kategoriškai neįjungia šios tradicijos į gerbtinų ir sektinų tradicijų skaičių.
-1	Būtina	būti	VERB	VBG	Definite=Ind|Gender=Neut|Polarity=Pos|VerbForm=Part|Voice=Necess	0	root	_	En=be
+1	Būtina	būti	VERB	VBG	Definite=Ind|Gender=Neut|Mood=Nec|Polarity=Pos|VerbForm=Part	0	root	_	En=be
 2	be	be	ADP	UH	_	4	case	_	En=without
 3	jokių	joks	DET	PRP$	Case=Gen|Gender=Fem|Number=Plur	4	det	_	En=no
 4	išlygų	išlyga	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	En=exception
@@ -613,9 +613,9 @@
 12	šios	šis	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	13	det	_	En=this
 13	tradicijos	tradicija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	En=tradition
 14	į	į	ADP	UH	_	19	case	_	En=to
-15	gerbtinų	gerbti	VERB	VBG	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Necess	18	amod	_	En=have_respect_for
+15	gerbtinų	gerbti	VERB	VBG	Case=Gen|Definite=Ind|Gender=Masc|Mood=Nec|Number=Plur|Polarity=Pos|VerbForm=Part	18	amod	_	En=have_respect_for
 16	ir	ir	CCONJ	CC	_	17	cc	_	En=and
-17	sektinų	sekti	VERB	VBG	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Necess	15	conj	_	En=follow
+17	sektinų	sekti	VERB	VBG	Case=Gen|Definite=Ind|Gender=Masc|Mood=Nec|Number=Plur|Polarity=Pos|VerbForm=Part	15	conj	_	En=follow
 18	tradicijų	tradicija	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	En=tradition
 19	skaičių	skaičius	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	En=abundance|SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	1	punct	_	En=.
@@ -699,7 +699,7 @@
 # sent_id = 174
 # text = Jei leistinas „alternatyvinės istorijos“ eksperimentas – įsivaizduokime, kad Lietuvą 1944 metas išvaduoja Vakarų sąjungininkai, ir į ją grįžta Stasys Lozoraitis, tuo metu nominalus valstybės galva.
 1	Jei	jei	SCONJ	UH	_	9	mark	_	En=if
-2	leistinas	leisti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Necess	9	advcl	_	En=permit
+2	leistinas	leisti	VERB	VBG	Case=Nom|Definite=Ind|Gender=Masc|Mood=Nec|Number=Sing|Polarity=Pos|VerbForm=Part	9	advcl	_	En=permit
 3	„	„	PUNCT	PUNCT	_	5	punct	_	En=„|SpaceAfter=No
 4	alternatyvinės	alternatyvinis	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	En=alternative
 5	istorijos	istorija	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	En=history|SpaceAfter=No
