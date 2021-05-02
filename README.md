@@ -9,6 +9,7 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
   * Removed feature Reflex=No.
   * VerbForm=PartPus changed to VerbForm=Conv as in the other Lithuanian treebank.
   * VerbForm=PartPad changed to VerbForm=Gen as in the other Lithuanian treebank.
+  * Tense=PresHab changed to Aspect=Hab|Tense=Pres.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Lithuanian to UD_Lithuanian-HSE.
 * 2017-11-15 v2.1

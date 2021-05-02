@@ -34,6 +34,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="42">
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">3</feat><!-- būna, nebūna -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">382</feat><!-- juos, mus, tautą, ją, kurį, tą, jį, ką, man, Lietuvą -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">137</feat><!-- mums, tautai, Rusijai, jam, jiems, žurnalistui, Andriui, Lietuvai, kuriems, man -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">659</feat><!-- Lietuvos, to, Strepsiado, jų, Sokrato, tautos, Europos, metų, Rusijos, valstybės -->
@@ -64,8 +65,7 @@
     <feat name="Tense" value="Past" upos="AUX,VERB">203</feat><!-- buvo, nebuvo, lėmė, pasakojo, atsirado, galėjo, gamino, gavo, liko, neapėmė -->
     <feat name="Tense" value="PastIter" upos="VERB">5</feat><!-- išbrokuodavo, pasisakydavau, sakydavome, tikrindavo, įrašinėdavo -->
     <feat name="Tense" value="PastSimp" upos="VERB">31</feat><!-- paėmus, sudužusio, žinojęs, Pradėjęs, Sakiau, atidarę, dirbusio, dirbęs, girdėję, ištraukę -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">342</feat><!-- yra, nėra, gali, turi, negali, vadinami, žinoma, galima, sako, žino -->
-    <feat name="Tense" value="PresHab" upos="AUX,VERB">3</feat><!-- būna, nebūna -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">345</feat><!-- yra, nėra, gali, turi, būna, negali, vadinami, žinoma, galima, sako -->
     <feat name="Variant" value="Full" upos="VERB">11</feat><!-- Mąstanti, atitinkančios, kalbančiu, mylinčių, mąstančiam, neapkenčianti, nenorinčiose, nereflektuojantis, nesibaigiantis, nutrinanti -->
     <feat name="Variant" value="Short" upos="VERB">12</feat><!-- girdėję, buvęs, gavęs, girdėjęs, kilęs, laikąs, neatsižvelgiąs, nusipelnęs, pribrendę, susijusios -->
     <feat name="VerbForm" value="Conv" upos="VERB">9</feat><!-- duodama, apsijuokdamas, atsižvelgdamos, keldamas, nesakoma, nesikurdama, neturėdama, pasmerkdami -->

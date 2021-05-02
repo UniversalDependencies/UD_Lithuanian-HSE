@@ -412,7 +412,7 @@
 9	,	,	PUNCT	PUNCT	_	12	punct	_	En=,
 10	kaip	kaip	SCONJ	UH	_	12	mark	_	En=how
 11	paprastai	paprastai	ADV	RB	Degree=Pos	12	advmod	_	En=usually
-12	būna	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=PresHab|VerbForm=Fin|Voice=Act	15	parataxis	_	En=be|SpaceAfter=No
+12	būna	būti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	En=be|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	12	punct	_	En=,
 14	jau	jau	PART	UH	_	15	advmod:emph	_	En=already
 15	pasidavė	pasiduoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	En=grasp
@@ -878,7 +878,7 @@
 # text = Geroje dramoje nebūna taip, kad viena pusė būtų visiškai neteisi.
 1	Geroje	geras	ADJ	JJL	Case=Loc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	En=good
 2	dramoje	drama	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	En=drama
-3	nebūna	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=PresHab|VerbForm=Fin|Voice=Act	4	cop	_	En=be
+3	nebūna	būti	AUX	VBC	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	En=be
 4	taip	taip	ADV	RB	Degree=Pos	0	root	_	En=such|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	11	punct	_	En=,
 6	kad	kad	SCONJ	UH	_	11	mark	_	En=that
@@ -3578,7 +3578,7 @@
 30	kitų	kitas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	En=other
 31	interesus	interesas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	En=interest
 32	(	(	PUNCT	PUNCT	_	33	punct	_	En=(|SpaceAfter=No
-33	būna	būti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=PresHab|VerbForm=Fin|Voice=Act	28	parataxis	_	En=be|SpaceAfter=No
+33	būna	būti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	En=be|SpaceAfter=No
 34	,	,	PUNCT	PUNCT	_	37	punct	_	En=,
 35	kad	kad	SCONJ	UH	_	37	mark	_	En=that
 36	ir	ir	PART	UH	_	37	advmod:emph	_	En=and
