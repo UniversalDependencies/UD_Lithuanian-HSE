@@ -563,7 +563,7 @@
 # newpar id = 168
 # sent_id = 168
 # text = Sakiau ir sakysiu, kad šioje srityje buvo padarytos dvi didelės klaidos, kurias anksčiau ar vėliau reikės ištaisyt.
-1	Sakiau	sakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=PastSimp|VerbForm=Fin|Voice=Act	0	root	_	En=say
+1	Sakiau	sakyti	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=say
 2	ir	ir	CCONJ	CC	_	3	cc	_	En=and
 3	sakysiu	sakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	En=say|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
@@ -961,7 +961,7 @@
 4	ir	ir	CCONJ	CC	_	5	cc	_	En=and
 5	žurnalistų	žurnalistas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	En=journalist
 6	yra	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	En=be
-7	pavertę	paversti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=PastSimp|VerbForm=Part|Voice=Pass	0	root	_	En=turn
+7	pavertę	paversti	VERB	VBNL	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	En=turn
 8	savo	savo	DET	PRP$	_	9	det	_	En=one's
 9	specialybe	specialybė	NOUN	NN	Case=Ins|Gender=Fem|Number=Sing	7	iobj	_	En=profession
 10	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	En=Russia
@@ -1249,7 +1249,7 @@
 # sent_id = 197
 # text = Apskritai paėmus, turkai nebesvajoja apie imperiją ir niekam nėra mirtinai pavojingi – nei bulgarams, nei serbams, nei graikams, pagaliau netgi armėnams.
 1	Apskritai	apskritai	ADV	RB	Degree=Pos	2	advmod	_	En=overall
-2	paėmus	paimti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=Ger|Voice=Act	5	parataxis	_	En=take|SpaceAfter=No
+2	paėmus	paimti	VERB	VBG	Aspect=Perf|Polarity=Pos|Tense=Past|VerbForm=Ger|Voice=Act	5	parataxis	_	En=take|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
 4	turkai	turkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	En=Turkish
 5	nebesvajoja	besvajoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=dream
@@ -1295,7 +1295,7 @@
 15	ne	ne	PART	UH	Polarity=Neg	18	advmod	_	En=not
 16	per	per	ADP	UH	_	17	case	_	En=through
 17	seniausiai	senai	ADV	RBS	Degree=Sup	18	obl	_	En=old
-18	kovėsi	kautis	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=Yes|Tense=PastSimp|VerbForm=Fin|Voice=Act	11	acl:relcl	_	En=battle
+18	kovėsi	kautis	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	En=battle
 19	ir	ir	CCONJ	CC	_	22	cc	_	En=and
 20	ligi	ligi	ADP	UH	_	21	case	_	En=up_to
 21	šiol	šis	ADV	RB	Degree=Pos	22	obl	_	En=now

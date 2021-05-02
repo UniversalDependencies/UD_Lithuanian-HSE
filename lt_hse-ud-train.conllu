@@ -937,13 +937,13 @@
 11	–	–	PUNCT	PUNCT	_	14	punct	_	En=–
 12	Sokratas	Sokratas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	En=Socrates
 13	nebūtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	En=be
-14	padegęs	padegti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=PastSimp|VerbForm=Part|Voice=Act	10	advcl	_	En=set_on_fire
+14	padegęs	padegti	VERB	VBNH	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	En=set_on_fire
 15	Strepsiado	Strepsiadas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	En=Strepsiade
 16	namų	namai	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	14	obj	_	En=house
 17	ir	ir	CCONJ	CC	_	20	cc	_	En=and
 18	nebūtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	20	aux	_	En=be
 19	jo	jis	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	20	obj	_	En=he
-20	įskundinėjęs	įskundinėti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=PastSimp|VerbForm=Part|Voice=Act	14	conj	_	En=complain
+20	įskundinėjęs	įskundinėti	VERB	VBNH	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	conj	_	En=complain
 21	valdžiai	valdžia	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	iobj	_	En=government|SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	10	punct	_	En=.
 
@@ -965,7 +965,7 @@
 1	Mes	mes	PRON	PRP	Case=Nom|Number=Plur|Person=1	6	nsubj	_	En=we|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	apskritai	apskritai	ADV	RB	Degree=Pos	6	parataxis	_	En=overall
-4	paėmus	paimti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=Ger|Voice=Act	3	fixed	_	En=take|SpaceAfter=No
+4	paėmus	paimti	VERB	VBG	Aspect=Perf|Polarity=Pos|Tense=Past|VerbForm=Ger|Voice=Act	3	fixed	_	En=take|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 6	gyvename	gyventi	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=live
 7	jo	jis	DET	PRP$	_	8	det	_	En=his
@@ -1042,7 +1042,7 @@
 # text = Jei būtų laimėjęs Strepsiadas, tiksliau, Strepsiado idėja – ligi šiol gyventume dorų, darbščių, patriarchališkų, tėvynę mylinčių žemdirbių bendruomenėse, nieko nežinančiose ir nenorinčiose žinoti apie tolimesnius kraštus ir visatą – beje, apsuptose nekenčiamų ir iš tikro pavojingų barbarų genčių.
 1	Jei	jei	SCONJ	UH	_	3	mark	_	En=if
 2	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	3	aux	_	En=be
-3	laimėjęs	laimėti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=PastSimp|VerbForm=Part|Voice=Act	13	advcl	_	En=win
+3	laimėjęs	laimėti	VERB	VBNH	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	En=win
 4	Strepsiadas	Strepsiadas	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	En=Strepsiade|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	En=,
 6	tiksliau	tiksliai	ADV	RBR	Degree=Cmp	9	parataxis	_	En=precisely|SpaceAfter=No
@@ -1707,7 +1707,7 @@
 # sent_id = 58
 # text = Esu skaitęs – tiesa, ne lietuvių spaudoje, - interviu su mergina iš Europos, kuri atsako į klausimą, kuo skiriasi Rytų Europos politinė scena nuo Vakarų politinės scenos.
 1	Esu	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	En=be
-2	skaitęs	skaityti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=PastSimp|VerbForm=Part|Voice=Act	0	root	_	En=deliver
+2	skaitęs	skaityti	VERB	VBNH	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	En=deliver
 3	–	–	PUNCT	PUNCT	_	4	punct	_	En=–
 4	tiesa	tiesa	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	En=truth|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	En=,
@@ -2762,7 +2762,7 @@
 8	visada	visada	ADV	RB	Degree=Pos	11	advmod	_	En=always
 9	apie	apie	ADP	UH	_	10	case	_	En=about
 10	jį	jis	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obl	_	En=he
-11	girdėję	girdėti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=PastSimp|Variant=Short|VerbForm=Part|Voice=Act	4	acl	_	En=hear|SpaceAfter=No
+11	girdėję	girdėti	VERB	VBNL	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	4	acl	_	En=hear|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	11	punct	_	En=,
 13	buvo	būti	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	En=be
 14	sovietai	sovietas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	En=the_Soviets|SpaceAfter=No
@@ -3153,7 +3153,7 @@
 3	stačiai	stačiai	ADV	RB	Degree=Pos	5	advmod	_	En=stand_up
 4	rasistinis	rasistinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	En=racist
 5	siaubas	siaubas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	En=horror
-6	pagalvojus	pagalvoti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=Ger|Voice=Act	2	advcl	_	En=think|SpaceAfter=No
+6	pagalvojus	pagalvoti	VERB	VBG	Aspect=Perf|Polarity=Pos|Tense=Past|VerbForm=Ger|Voice=Act	2	advcl	_	En=think|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
 8	kad	kad	SCONJ	UH	_	10	mark	_	En=that
 9	lietuviu	lietuvis	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	iobj	_	En=Lithianian
@@ -3294,7 +3294,7 @@
 4	būtų	būti	AUX	VBC	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	8	cop	_	En=be
 5	su	su	ADP	UH	_	6	case	_	En=with
 6	tuo	tuo	PRON	DT	_	7	obl	_	En=that
-7	susijusios	susyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=PastSimp|Variant=Short|VerbForm=Part|Voice=Act	8	acl	_	En=existing
+7	susijusios	susyti	VERB	VBNL	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	8	acl	_	En=existing
 8	problemos	problema	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	advcl	_	En=problem|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
 10	kad	kad	SCONJ	UH	_	14	mark	_	En=that
@@ -3326,7 +3326,7 @@
 6	jų	jie	PRON	PRP	Case=Gen|Number=Plur|Person=3	5	nmod	_	En=their
 7	seniai	seniai	ADV	RB	Degree=Pos	9	advmod	_	En=long_ago
 8	būtų	būti	AUX	VBC	Mood=Cnd|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	9	aux	_	En=be
-9	žlugusios	žlugti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=PastSimp|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	En=crash
+9	žlugusios	žlugti	VERB	VBNL	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	0	root	_	En=crash
 10	ekonomiškai	ekonomiškai	ADV	RB	Degree=Pos	9	advmod	_	En=economically|SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
 12	taigi	taigi	PART	UH	_	14	advmod:emph	_	En=so
@@ -3735,7 +3735,7 @@
 1	Esu	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	En=be
 2	ne	ne	PART	UH	Polarity=Neg	3	advmod	_	En=not
 3	kartą	kartas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	En=time
-4	kalbėjęs	kalbėti	VERB	VBNH	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=PastSimp|VerbForm=Part|Voice=Act	0	root	_	En=say
+4	kalbėjęs	kalbėti	VERB	VBNH	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	En=say
 5	apie	apie	ADP	UH	_	9	case	_	En=about
 6	pavojingą	pavojingas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	En=dangerous
 7	„	„	PUNCT	PUNCT	_	9	punct	_	En=„|SpaceAfter=No
