@@ -924,7 +924,7 @@
 18	,	,	PUNCT	PUNCT	_	21	punct	_	En=,
 19	kuriuos	kuris	PRON	WPA	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	En=which
 20	kruopščiai	kruopščiai	ADV	RB	Degree=Pos	21	advmod	_	En=thoroughly
-21	tikrindavo	tikrinti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=PastIter|VerbForm=Fin|Voice=Act	15	acl:relcl	_	En=check
+21	tikrindavo	tikrinti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	En=check
 22	saugumiečiai	saugumietis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	En=security|SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	11	punct	_	En=.
 
@@ -943,7 +943,7 @@
 1	„	„	PUNCT	PUNCT	_	4	punct	_	En=„|SpaceAfter=No
 2	Labai	labai	ADV	RB	Degree=Pos	4	advmod	_	En=rather
 3	daug	daug	ADV	RB	Degree=Pos	4	advmod	_	En=many
-4	išbrokuodavo	išbrokuoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=PastIter|VerbForm=Fin|Voice=Act	23	ccomp	_	En=condemn|SpaceAfter=No
+4	išbrokuodavo	išbrokuoti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	23	ccomp	_	En=condemn|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	En=,
 6	nes	nes	SCONJ	UH	_	4	mark	_	En=because
 7	mes	mes	PRON	PRP	Case=Nom|Number=Plur|Person=1	8	nsubj	_	En=we
@@ -981,7 +981,7 @@
 10	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
 11	MARS	MARS	PROPN	NNP	_	13	nsubj	_	En=MARS
 12	BM	BM	PROPN	NNP	_	11	flat	_	En=BM
-13	įrašinėdavo	įrašinėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=PastIter|VerbForm=Fin|Voice=Act	0	root	_	En=write
+13	įrašinėdavo	įrašinėti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=write
 14	30	30	NUM	CD	_	15	nummod	_	En=30
 15	minučių	minutė	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	En=minute
 16	pokalbių	pokalbis	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	obj	_	En=conversation

@@ -835,7 +835,7 @@
 8	–	–	PUNCT	PUNCT	_	13	punct	_	En=–
 9	kaip	kaip	SCONJ	UH	_	11	mark	_	En=how
 10	sovietmečiu	sovietmečiu	ADV	RB	Degree=Pos	11	obl	_	En=the_Soviet_era
-11	sakydavome	sakyti	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=PastIter|VerbForm=Fin|Voice=Act	13	parataxis	_	En=say|SpaceAfter=No
+11	sakydavome	sakyti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	En=say|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	11	punct	_	En=,
 13	donosas	donosas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	En=donos|SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	7	punct	_	En=.
@@ -3458,7 +3458,7 @@
 9	savo	savo	DET	PRP$	_	11	det	_	En=one's
 10	sąmoningą	sąmoningas	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	En=sharp,smart
 11	gyvenimą	gyvenimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	En=life
-12	pasisakydavau	pasisakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=PastIter|VerbForm=Fin|Voice=Act	5	parataxis	_	En=speak
+12	pasisakydavau	pasisakyti	VERB	VBC	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	En=speak
 13	ir	ir	CCONJ	CC	_	15	cc	_	En=and
 14	dabar	dabar	ADV	RB	Degree=Pos	15	advmod	_	En=now
 15	pasisakau	pasisakyti	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	En=say

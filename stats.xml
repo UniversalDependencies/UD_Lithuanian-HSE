@@ -33,8 +33,8 @@
     <tag name="X">11</tag><!-- definitione, ex, for, him, pardoned, summa, summarum, time, w, well -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="42">
-    <feat name="Aspect" value="Hab" upos="AUX,VERB">3</feat><!-- būna, nebūna -->
+  <feats unique="41">
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">8</feat><!-- būna, išbrokuodavo, nebūna, pasisakydavau, sakydavome, tikrindavo, įrašinėdavo -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">382</feat><!-- juos, mus, tautą, ją, kurį, tą, jį, ką, man, Lietuvą -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">137</feat><!-- mums, tautai, Rusijai, jam, jiems, žurnalistui, Andriui, Lietuvai, kuriems, man -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">659</feat><!-- Lietuvos, to, Strepsiado, jų, Sokrato, tautos, Europos, metų, Rusijos, valstybės -->
@@ -62,8 +62,7 @@
     <feat name="Polarity" value="Pos" upos="ADJ,AUX,VERB">701</feat><!-- buvo, yra, gali, būtų, būti, turi, būna, vadinami, žinoma, galima -->
     <feat name="Reflex" value="Yes" upos="NOUN,VERB">60</feat><!-- darosi, nesiskiria, skiriasi, Nesinori, Remiantis, apsigynėme, apsijuokdamas, apsiribokime, atsiliepia, atsiradusi -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">34</feat><!-- bus, Pridursiu, Priminsiu, apims, ateis, atsiras, bandysi, būsime, galėsi, generuos -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">203</feat><!-- buvo, nebuvo, lėmė, pasakojo, atsirado, galėjo, gamino, gavo, liko, neapėmė -->
-    <feat name="Tense" value="PastIter" upos="VERB">5</feat><!-- išbrokuodavo, pasisakydavau, sakydavome, tikrindavo, įrašinėdavo -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">208</feat><!-- buvo, nebuvo, lėmė, pasakojo, atsirado, galėjo, gamino, gavo, liko, neapėmė -->
     <feat name="Tense" value="PastSimp" upos="VERB">31</feat><!-- paėmus, sudužusio, žinojęs, Pradėjęs, Sakiau, atidarę, dirbusio, dirbęs, girdėję, ištraukę -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">345</feat><!-- yra, nėra, gali, turi, būna, negali, vadinami, žinoma, galima, sako -->
     <feat name="Variant" value="Full" upos="VERB">11</feat><!-- Mąstanti, atitinkančios, kalbančiu, mylinčių, mąstančiam, neapkenčianti, nenorinčiose, nereflektuojantis, nesibaigiantis, nutrinanti -->
