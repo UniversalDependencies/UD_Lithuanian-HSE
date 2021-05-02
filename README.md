@@ -13,6 +13,7 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
   * Tense=PastIter changed to Aspect=Hab|Tense=Past.
   * Tense=PastSimp changed to Aspect=Perf|Tense=Past.
   * Voice=Necess changed to Mood=Nec as in the other Lithuanian treebank.
+  * Removed Variant=Full. It is enough to mark Variant=Short.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Lithuanian to UD_Lithuanian-HSE.
 * 2017-11-15 v2.1

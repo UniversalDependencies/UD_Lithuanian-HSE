@@ -557,7 +557,7 @@
 # newpar id = 13
 # sent_id = 13
 # text = Mąstanti asmenybė jam svarbesnė už kolektyvą, bendruomenę, tautą.
-1	Mąstanti	mąstyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	2	amod	_	En=think
+1	Mąstanti	mąstyti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	En=think
 2	asmenybė	asmenybė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	En=personality
 3	jam	jis	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	obl	_	En=he
 4	svarbesnė	svarbus	ADJ	JJR	Case=Nom|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	0	root	_	En=important
@@ -1060,14 +1060,14 @@
 18	patriarchališkų	patriarchališkas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	14	conj	_	En=patriarchal|SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	21	punct	_	En=,
 20	tėvynę	tėvynė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	En=homeland
-21	mylinčių	mylėti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	14	conj	_	En=love
+21	mylinčių	mylėti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	14	conj	_	En=love
 22	žemdirbių	žemdirbys	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	En=farmer
 23	bendruomenėse	bendruomenė	NOUN	NN	Case=Loc|Gender=Fem|Number=Plur	13	obl	_	En=community|SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	26	punct	_	En=,
 25	nieko	niekas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	26	obj	_	En=nothing
 26	nežinančiose	žinoti	VERB	VBNL	Case=Loc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Act	23	acl	_	En=unaware
 27	ir	ir	CCONJ	CC	_	28	cc	_	En=and
-28	nenorinčiose	norėti	VERB	VBNL	Case=Loc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	26	conj	_	En=unwilling
+28	nenorinčiose	norėti	VERB	VBNL	Case=Loc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Act	26	conj	_	En=unwilling
 29	žinoti	žinoti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	28	xcomp	_	En=know
 30	apie	apie	ADP	UH	_	32	case	_	En=about
 31	tolimesnius	tolimas	ADJ	JJR	Case=Acc|Definite=Ind|Degree=Cmp|Gender=Masc|Number=Plur	32	amod	_	En=distant
@@ -1697,7 +1697,7 @@
 6	atsiras	atsirasti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	En=appear
 7	seimūnų	seimūnas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	En=parliament_member|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
-9	padeginėjančių	padeginėti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	7	acl	_	En=set_on_fire
+9	padeginėjančių	padeginėti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	En=set_on_fire
 10	„	„	PUNCT	PUNCT	_	11	punct	_	En=„|SpaceAfter=No
 11	mąstyklas	mąstyklas	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	En=school|SpaceAfter=No
 12	“	“	PUNCT	PUNCT	_	11	punct	_	En=“|SpaceAfter=No
@@ -2281,7 +2281,7 @@
 1	Įsivyravo	įsivyrauti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=win
 2	primityvus	primityvus	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	En=primitive|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	4	punct	_	En=,
-4	nereflektuojantis	reflektuoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	2	conj	_	En=non-reflexing
+4	nereflektuojantis	reflektuoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	En=non-reflexing
 5	nacionalizmas	nacionalizmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	En=nationalism
 6	–	–	PUNCT	PUNCT	_	7	punct	_	En=–
 7	sakyčiau	sakyti	VERB	VBC	Mood=Cnd|Number=Sing|Person=1|Polarity=Pos|VerbForm=Fin|Voice=Act	10	parataxis	_	En=say|SpaceAfter=No
@@ -2407,7 +2407,7 @@
 31	visuomenėje	visuomenė	NOUN	NN	Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	En=society
 32	vietos	vieta	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	En=place|SpaceAfter=No
 33	,	,	PUNCT	PUNCT	_	34	punct	_	En=,
-34	atitinkančios	atitikti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	32	acl	_	En=answer
+34	atitinkančios	atitikti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	32	acl	_	En=answer
 35	jų	jų	DET	PRP$	_	36	det	_	En=their
 36	troškimus	troškimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obj	_	En=desire|SpaceAfter=No
 37	,	,	PUNCT	PUNCT	_	38	punct	_	En=,
@@ -2952,7 +2952,7 @@
 10	,	,	PUNCT	PUNCT	_	13	punct	_	En=,
 11	visų	visas	PRON	DT	Case=Gen|Gender=Masc|Number=Plur	13	obj	_	En=all
 12	aplinkui	aplinkui	ADV	RB	Degree=Pos	13	advmod	_	En=around
-13	neapkenčianti	apkentėti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	7	conj	_	En=suffer
+13	neapkenčianti	apkentėti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	En=suffer
 14	ir	ir	CCONJ	CC	_	15	cc	_	En=and
 15	bijanti	bijoti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	13	conj	_	En=fear
 16	Lietuva	Lietuva	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	En=Lithuania|SpaceAfter=No
@@ -3643,7 +3643,7 @@
 24	ir	ir	CCONJ	CC	_	28	cc	_	En=and
 25	šiaip	šiaip	ADJ	JJL	_	28	amod	_	En=other
 26	jau	jau	ADV	RB	Degree=Pos	27	advmod	_	En=just
-27	mąstančiam	mąstyti	VERB	VBNL	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|Variant=Full|VerbForm=Part|Voice=Act	28	amod	_	En=think
+27	mąstančiam	mąstyti	VERB	VBNL	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	En=think
 28	žmogui	žmogus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	conj	_	En=person|SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	11	punct	_	En=.
 
