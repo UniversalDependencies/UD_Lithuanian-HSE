@@ -1212,7 +1212,7 @@
 
 # sent_id = lt-ru-5-p18-38
 # text = Remiantis pirminiais duomenimis, tinkamai nesuveikė užsparniai – juos į skirtingas puses pakreipę pilotai galėjo tiesiog supainioti svirtis, o tai padaryti sudėtingai valdomame Tu-154 nėra sudėtinga net patyrusiems pilotams – aviacijos istorijoje jau yra nesyk pasitaikę atvejų, kai viena nedidelė klaida ar jų virtinė lėmė siaubingas katastrofas.
-1	Remiantis	remti	VERB	VBG	Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=PartPad	6	acl	_	En=support
+1	Remiantis	remti	VERB	VBG	Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Ger	6	acl	_	En=support
 2	pirminiais	pirminis	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	En=ultimate
 3	duomenimis	duomuo	NOUN	NN	Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	En=data|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	1	punct	_	En=,

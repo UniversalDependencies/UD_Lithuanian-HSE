@@ -684,7 +684,7 @@
 2	juo	jis	PRON	PRP	Case=Ins|Gender=Masc|Number=Sing|Person=3	8	iobj	_	En=this|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	En=,
 4	tiesą	tiesa	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	En=truth
-5	sakant	sakyti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	8	parataxis	_	En=say|SpaceAfter=No
+5	sakant	sakyti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	8	parataxis	_	En=say|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	5	punct	_	En=,
 7	pernelyg	pernelyg	ADV	RB	Degree=Pos	8	advmod	_	En=too_much
 8	nesibaisėjo	nesibaisėti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	En=be_fond_of|SpaceAfter=No
@@ -965,7 +965,7 @@
 1	Mes	mes	PRON	PRP	Case=Nom|Number=Plur|Person=1	6	nsubj	_	En=we|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 3	apskritai	apskritai	ADV	RB	Degree=Pos	6	parataxis	_	En=overall
-4	paėmus	paimti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=PartPad|Voice=Act	3	fixed	_	En=take|SpaceAfter=No
+4	paėmus	paimti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=Ger|Voice=Act	3	fixed	_	En=take|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 6	gyvename	gyventi	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=live
 7	jo	jis	DET	PRP$	_	8	det	_	En=his
@@ -2158,7 +2158,7 @@
 5	išjudinti	išjudinti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	4	xcomp	_	En=move_on
 6	mases	masė	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	En=mass|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	8	punct	_	En=,
-8	pabrėžiant	pabrėžti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	5	advcl	_	En=highlight
+8	pabrėžiant	pabrėžti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	5	advcl	_	En=highlight
 9	tautinį	tautinis	ADJ	JJL	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	En=national
 10	momentą	momentas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	En=moment|SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
@@ -3153,7 +3153,7 @@
 3	stačiai	stačiai	ADV	RB	Degree=Pos	5	advmod	_	En=stand_up
 4	rasistinis	rasistinis	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	En=racist
 5	siaubas	siaubas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	En=horror
-6	pagalvojus	pagalvoti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=PartPad|Voice=Act	2	advcl	_	En=think|SpaceAfter=No
+6	pagalvojus	pagalvoti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=Ger|Voice=Act	2	advcl	_	En=think|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	10	punct	_	En=,
 8	kad	kad	SCONJ	UH	_	10	mark	_	En=that
 9	lietuviu	lietuvis	ADJ	JJL	Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	iobj	_	En=Lithianian
@@ -3560,7 +3560,7 @@
 12	kitos	kitas	ADJ	JJL	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	En=other
 13	šalys	šalis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	En=country|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	En=,
-15	įskaitant	įskaityti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	13	advcl	_	En=including
+15	įskaitant	įskaityti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	13	advcl	_	En=including
 16	JAV	JAV	PROPN	NNP	_	15	obj	_	En=USA
 17	ir	ir	CCONJ	CC	_	18	cc	_	En=and
 18	Rusiją	Rusija	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	En=Russia|SpaceAfter=No

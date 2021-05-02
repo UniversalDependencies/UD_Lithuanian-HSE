@@ -367,7 +367,7 @@
 29	,	,	PUNCT	PUNCT	_	32	punct	_	En=,
 30	nuolat	nuolat	ADV	RB	Degree=Pos	32	advmod	_	En=constantly
 31	juos	jie	PRON	PRP	Case=Acc|Number=Plur|Person=3	32	obj	_	En=you
-32	puldinėt	puldinėti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	25	advcl	_	En=attack|SpaceAfter=No
+32	puldinėt	puldinėti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	25	advcl	_	En=attack|SpaceAfter=No
 33	,	,	PUNCT	PUNCT	_	34	punct	_	En=,
 34	pabrėžti	pabrėžti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	25	conj	_	En=highlight
 35	jų	jų	DET	PRP$	_	36	det	_	En=their
@@ -581,7 +581,7 @@
 16	ar	ar	CCONJ	CC	_	15	fixed	_	En=or
 17	vėliau	vėlai	ADV	RBR	Degree=Cmp	15	fixed	_	En=later
 18	reikės	reikėti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	En=need
-19	ištaisyt	ištaisyti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	18	xcomp	_	En=amend|SpaceAfter=No
+19	ištaisyt	ištaisyti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	18	xcomp	_	En=amend|SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	19	punct	_	En=.
 
 # newpar id = 169
@@ -858,7 +858,7 @@
 20	infliaciją	infliacija	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	En=inflation
 21	dar	dar	ADV	RB	Degree=Pos	23	advmod	_	En=yet
 22	prieš	prieš	ADP	UH	_	23	case	_	En=against
-23	atgaunant	atgauti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	25	obl	_	En=win_back
+23	atgaunant	atgauti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	25	obl	_	En=win_back
 24	nepriklausomybę	nepriklausomybė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg	23	obj	_	En=independence
 25	skatino	skatinti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	En=because
 26	mūsų	mūsų	DET	PRP$	_	27	det	_	En=our
@@ -1045,7 +1045,7 @@
 3	Rusijos	Rusija	PROPN	NNP	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	En=Russia
 4	veiksmai	veiksmas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	En=activity|SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	En=,
-6	sekant	sekti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=PartPad|Voice=Act	10	parataxis	_	En=follow
+6	sekant	sekti	VERB	VBG	Polarity=Pos|Tense=Pres|VerbForm=Ger|Voice=Act	10	parataxis	_	En=follow
 7	tuo	tuo	DET	DT	_	8	det	_	En=that
 8	požiūriu	požiūris	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	6	obj	_	En=viewpoint|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	6	punct	_	En=,
@@ -1249,7 +1249,7 @@
 # sent_id = 197
 # text = Apskritai paėmus, turkai nebesvajoja apie imperiją ir niekam nėra mirtinai pavojingi – nei bulgarams, nei serbams, nei graikams, pagaliau netgi armėnams.
 1	Apskritai	apskritai	ADV	RB	Degree=Pos	2	advmod	_	En=overall
-2	paėmus	paimti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=PartPad|Voice=Act	5	parataxis	_	En=take|SpaceAfter=No
+2	paėmus	paimti	VERB	VBG	Polarity=Pos|Tense=PastSimp|VerbForm=Ger|Voice=Act	5	parataxis	_	En=take|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	En=,
 4	turkai	turkas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	En=Turkish
 5	nebesvajoja	besvajoti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=dream
