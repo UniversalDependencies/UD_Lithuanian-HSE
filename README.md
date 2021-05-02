@@ -7,6 +7,7 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
 
 * 2021-05-15 v2.8
   * Removed feature Reflex=No.
+  * VerbForm=PartPus changed to VerbForm=Conv as in the other Lithuanian treebank.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Lithuanian to UD_Lithuanian-HSE.
 * 2017-11-15 v2.1

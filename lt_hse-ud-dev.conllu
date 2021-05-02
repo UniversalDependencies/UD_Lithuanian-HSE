@@ -1024,7 +1024,7 @@
 15	(	(	PUNCT	PUNCT	_	18	punct	_	En=(|SpaceAfter=No
 16	taip	taip	PART	UH	_	18	advmod:emph	_	En=as
 17	pat	pat	PART	UH	_	16	fixed	_	En=well
-18	duodama	duoti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=PartPus|Voice=Act	6	parataxis	_	En=give
+18	duodama	duoti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Conv|Voice=Act	6	parataxis	_	En=give
 19	suprasti	suprasti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	18	xcomp	_	En=understand|SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	25	punct	_	En=,
 21	kad	kad	SCONJ	UH	_	25	mark	_	En=that
@@ -1130,7 +1130,7 @@
 11	Rusija	Rusija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	En=Russia
 12	susitarti	susitarti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	9	xcomp	_	En=make_agreement|SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	14	punct	_	En=,
-14	pasmerkdami	pasmerkti	VERB	VBG	Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=PartPus|Voice=Act	9	advcl	_	En=censure
+14	pasmerkdami	pasmerkti	VERB	VBG	Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Conv|Voice=Act	9	advcl	_	En=censure
 15	mus	mes	PRON	PRP	Case=Acc|Number=Plur|Person=1	14	obj	_	En=we
 16	nevisiškai	nevisiškai	ADV	RB	Degree=Pos|Polarity=Neg	17	advmod	_	En=not_obvious
 17	aiškiam	aiškus	ADJ	JJL	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	En=explain|SpaceAfter=No

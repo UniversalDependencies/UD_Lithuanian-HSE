@@ -1384,12 +1384,12 @@
 23	dėl	dėl	ADP	UH	_	26	advmod	_	En=just_in_case
 24	viso	visas	DET	DT	Case=Gen|Gender=Masc|Number=Sing	23	fixed	_	En=just_in_case
 25	pikto	piktas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	fixed	_	En=just_in_case
-26	nesakoma	sakyti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=PartPus|Voice=Act	20	appos	_	En=say|SpaceAfter=No
+26	nesakoma	sakyti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Conv|Voice=Act	20	appos	_	En=say|SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	31	punct	_	En=,
 28	bet	bet	CCONJ	CC	_	31	cc	_	En=but
 29	gana	gana	ADV	RB	Degree=Pos	30	advmod	_	En=pretty
 30	aiškiai	aiškiai	ADV	RB	Degree=Pos	31	advmod	_	En=clearly
-31	duodama	duoti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=PartPus|Voice=Act	26	conj	_	En=give
+31	duodama	duoti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Conv|Voice=Act	26	conj	_	En=give
 32	suprasti	suprasti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	31	xcomp	_	En=understand|SpaceAfter=No
 33	,	,	PUNCT	PUNCT	_	36	punct	_	En=,
 34	kad	kad	SCONJ	UH	_	36	mark	_	En=that
@@ -1638,12 +1638,12 @@
 # text = Seimas, apsijuokdamas prieš Europą, neretai keldamas jos pasibjaurėjimą, priiminėja įstatymus apie raides „w“ draudimą pasuose ir apie draudimą platinti seksualinę informaciją, o asmenys, laikantys save laisvės kovotojais, apmėto akmenimis gėjų eitynes (gink Dieve, ne nacių simpatikų eitynes).
 1	Seimas	seimas	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	En=parliament|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
-3	apsijuokdamas	apsijuokti	VERB	VBG	Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|VerbForm=PartPus|Voice=Act	12	advcl	_	En=make_ridiculous
+3	apsijuokdamas	apsijuokti	VERB	VBG	Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|VerbForm=Conv|Voice=Act	12	advcl	_	En=make_ridiculous
 4	prieš	prieš	ADP	UH	_	5	case	_	En=before
 5	Europą	Europa	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	En=Europe|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	En=,
 7	neretai	neretai	ADV	RB	Degree=Pos|Polarity=Neg	8	advmod	_	En=frequently
-8	keldamas	kelti	VERB	VBG	Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=PartPus|Voice=Act	3	conj	_	En=cause
+8	keldamas	kelti	VERB	VBG	Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Conv|Voice=Act	3	conj	_	En=cause
 9	jos	jos	DET	PRP$	_	10	det	_	En=their
 10	pasibjaurėjimą	pasibjaurėjimas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	En=revolt|SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	8	punct	_	En=,
@@ -2783,10 +2783,10 @@
 10	laisvės	laisvė	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	En=freedom
 11	sąlygomis	sąlyga	NOUN	NN	Case=Ins|Gender=Fem|Number=Plur	9	obl	_	En=condition|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	13	punct	_	En=,
-13	neturėdama	turėti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=PartPus|Voice=Act	8	advcl	_	En=have
+13	neturėdama	turėti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Conv|Voice=Act	8	advcl	_	En=have
 14	ir	ir	CCONJ	CC	_	16	cc	_	En=and
 15	pati	pats	PRON	DT	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	En=itself
-16	nesikurdama	kurtis	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|Reflex=Yes|VerbForm=PartPus|Voice=Act	13	conj	_	En=make
+16	nesikurdama	kurtis	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|Reflex=Yes|VerbForm=Conv|Voice=Act	13	conj	_	En=make
 17	sau	savęs	PRON	PRP	Case=Dat	16	iobj	_	En=oneself
 18	priešų	priešas	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	obj	_	En=enemy|SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	4	punct	_	En=.
@@ -3573,7 +3573,7 @@
 25	veikimo	veikimas	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	En=activity
 26	laisvę	laisvė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	En=freedom|SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	28	punct	_	En=,
-28	atsižvelgdamos	atsižvelgti	VERB	VBG	Gender=Fem|Number=Plur|Polarity=Pos|Reflex=Yes|VerbForm=PartPus|Voice=Act	23	advcl	_	En=take_into_account
+28	atsižvelgdamos	atsižvelgti	VERB	VBG	Gender=Fem|Number=Plur|Polarity=Pos|Reflex=Yes|VerbForm=Conv|Voice=Act	23	advcl	_	En=take_into_account
 29	į	į	ADP	UH	_	31	case	_	En=to
 30	kitų	kitas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	En=other
 31	interesus	interesas	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	En=interest

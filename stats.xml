@@ -68,11 +68,11 @@
     <feat name="Tense" value="PresHab" upos="AUX,VERB">3</feat><!-- būna, nebūna -->
     <feat name="Variant" value="Full" upos="VERB">11</feat><!-- Mąstanti, atitinkančios, kalbančiu, mylinčių, mąstančiam, neapkenčianti, nenorinčiose, nereflektuojantis, nesibaigiantis, nutrinanti -->
     <feat name="Variant" value="Short" upos="VERB">12</feat><!-- girdėję, buvęs, gavęs, girdėjęs, kilęs, laikąs, neatsižvelgiąs, nusipelnęs, pribrendę, susijusios -->
+    <feat name="VerbForm" value="Conv" upos="VERB">9</feat><!-- duodama, apsijuokdamas, atsižvelgdamos, keldamas, nesakoma, nesikurdama, neturėdama, pasmerkdami -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">488</feat><!-- buvo, yra, nėra, gali, būtų, turi, būna, nebūtų, negali, nebuvo -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">139</feat><!-- būti, mylėti, turėti, vadinti, atsirasti, diskriminuoti, gaminti, padaryti, pagaminti, remti -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">172</feat><!-- vadinami, žinoma, galima, bandoma, esama, girdėję, grįžtamasis, laikomas, paskelbta, pastebimi -->
     <feat name="VerbForm" value="PartPad" upos="VERB">11</feat><!-- paėmus, Remiantis, atgaunant, ištaisyt, pabrėžiant, pagalvojus, puldinėt, sakant, sekant, įskaitant -->
-    <feat name="VerbForm" value="PartPus" upos="VERB">9</feat><!-- duodama, apsijuokdamas, atsižvelgdamos, keldamas, nesakoma, nesikurdama, neturėdama, pasmerkdami -->
     <feat name="Voice" value="Act" upos="AUX,VERB">734</feat><!-- buvo, yra, nėra, gali, būtų, būti, turi, būna, nebūtų, negali -->
     <feat name="Voice" value="Necess" upos="VERB">8</feat><!-- Būtina, baustinas, gerbtinų, leistinas, neleistina, nepriimtina, priimtinas, sektinų -->
     <feat name="Voice" value="Pass" upos="AUX,VERB">76</feat><!-- žinoma, galima, bandoma, esama, grįžtamasis, laikomas, paskelbta, pastebimi, skirtas, Kalbama -->
