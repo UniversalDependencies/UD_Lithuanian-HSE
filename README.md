@@ -5,6 +5,8 @@ A pilot version which includes news and an essay by Tomas Venclova is available 
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Removed feature Reflex=No.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Lithuanian to UD_Lithuanian-HSE.
 * 2017-11-15 v2.1
