@@ -798,7 +798,7 @@
 # text = Paskutinieji Sokrato žodžiai tekste – „Aš dūstu“.
 1	Paskutinieji	paskutinis	ADJ	JJL	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	En=last
 2	Sokrato	Sokratas	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	En=Socrates
-3	žodžiai	žodis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	En=word
+3	žodžiai	žodis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:outer	_	En=word
 4	tekste	tekstas	NOUN	NN	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	En=text
 5	–	–	PUNCT	PUNCT	_	8	punct	_	En=–
 6	„	„	PUNCT	PUNCT	_	8	punct	_	En=„|SpaceAfter=No
