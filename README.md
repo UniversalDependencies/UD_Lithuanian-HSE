@@ -74,7 +74,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: manual native
-Contributors: Lyashevskaya, Olga; Sichinava, Dmitry
+Contributors: Lyashevskaya, Olga; Sitchinava, Dmitri
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
