@@ -76,7 +76,7 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">76</feat><!-- žinoma, galima, bandoma, esama, grįžtamasis, laikomas, paskelbta, pastebimi, skirtas, Kalbama -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl">47</dep>
     <dep name="acl:relcl">46</dep>
     <dep name="advcl">74</dep>
@@ -102,7 +102,8 @@
     <dep name="list">2</dep>
     <dep name="mark">137</dep>
     <dep name="nmod">372</dep>
-    <dep name="nsubj">370</dep>
+    <dep name="nsubj">369</dep>
+    <dep name="nsubj:outer">1</dep>
     <dep name="nummod">11</dep>
     <dep name="nummod:gov">5</dep>
     <dep name="obj">262</dep>
