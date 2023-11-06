@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Lithuanian-HSE:
-commit bafaf02f53d473235bbefa39e8474088d9d2a574
+commit 9a1550fc684f2e7bb83c92b36503de973bd71635
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:52:45 2022 +0100
+Date:   Tue May 9 11:30:10 2023 +0200
 Size: counted 5356 of 5356 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.35643485565785.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        457
-Udapi: found 457 bugs.
+               TOTAL        456
+Udapi: found 456 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 5356 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.242946856113324) = 0.062294065670083
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.146751306945482) = 0.0451542482909175
+(weight=0.307692307692308) * (score{udapi}=0.148618371919343) = 0.0457287298213362
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.364534449870666) * (availability=1) * (validity=1) = 0.364534449870666
+(TOTAL score=0.365108931401085) * (availability=1) * (validity=1) = 0.365108931401085
 STARS = 2
-UD_Lithuanian-HSE	0.364534449870666	2
+UD_Lithuanian-HSE	0.365108931401085	2
