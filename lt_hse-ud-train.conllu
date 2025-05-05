@@ -1080,7 +1080,7 @@
 38	apsuptose	apsupti	VERB	VBNL	Case=Loc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	26	parataxis	_	En=surround
 39	nekenčiamų	nekentėti	VERB	VBNL	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	44	amod	_	En=hate
 40	ir	ir	CCONJ	CC	_	43	cc	_	En=and
-41	iš	iš	ADP	UH	_	43	advmod	_	En=from
+41	iš	iš	ADP	UH	ExtPos=ADV	43	advmod	_	En=from
 42	tikro	tikras	ADV	RB	Degree=Pos	41	fixed	_	En=actually
 43	pavojingų	pavojingas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	39	conj	_	En=dangerous
 44	barbarų	barbaras	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	En=barbarian
@@ -1381,7 +1381,7 @@
 20	jėgos	jėga	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	En=power
 21	–	–	PUNCT	PUNCT	_	26	punct	_	En=–
 22	paprastai	paprastai	ADV	RB	Degree=Pos	26	advmod	_	En=usually
-23	dėl	dėl	ADP	UH	_	26	advmod	_	En=just_in_case
+23	dėl	dėl	ADP	UH	ExtPos=ADV	26	advmod	_	En=just_in_case
 24	viso	visas	DET	DT	Case=Gen|Gender=Masc|Number=Sing	23	fixed	_	En=just_in_case
 25	pikto	piktas	ADJ	JJL	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	fixed	_	En=just_in_case
 26	nesakoma	sakyti	VERB	VBG	Gender=Fem|Number=Sing|Polarity=Neg|VerbForm=Conv|Voice=Act	20	appos	_	En=say|SpaceAfter=No
@@ -2143,7 +2143,7 @@
 10	tautą	tauta	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	En=nation|SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	12	punct	_	En=,
 12	kokia	koks	DET	WDT	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	En=what
-13	patinka	patikti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	En=like
+13	patinka	patikti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	En=like
 14	mūsų	mūsų	DET	PRP$	_	15	det	_	En=our
 15	pseudointelektualams	pseudointelektualas	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	En=pseudointellectual|SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	5	punct	_	En=.
@@ -2655,7 +2655,7 @@
 26	ir	ir	CCONJ	CC	_	27	cc	_	En=and
 27	baigta	baigti	VERB	VBNL	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	25	conj	_	En=full_stop|SpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	32	punct	_	En=,
-29	jokiu	joks	PRON	DT	Case=Ins|Gender=Masc|Number=Sing	32	advmod	_	En=no
+29	jokiu	joks	PRON	DT	Case=Ins|ExtPos=ADV|Gender=Masc|Number=Sing	32	advmod	_	En=no
 30	būdu	būdas	NOUN	NN	Case=Ins|Gender=Masc|Number=Sing	29	fixed	_	En=way
 31	jų	jie	PRON	PRP	Case=Gen|Gender=Masc|Number=Plur|Person=3	32	obj	_	En=they
 32	nereflektuoti	reflektuoti	VERB	VB	Polarity=Neg|VerbForm=Inf|Voice=Act	25	conj	_	En=reflect|SpaceAfter=No
@@ -2738,7 +2738,7 @@
 4	,	,	PUNCT	PUNCT	_	3	punct	_	En=,
 5	tautą	tauta	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	En=nation|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	9	punct	_	En=,
-7	iš	iš	ADP	UH	_	9	advmod	_	En=from
+7	iš	iš	ADP	UH	ExtPos=ADV	9	advmod	_	En=from
 8	viso	visas	DET	DT	Case=Gen|Gender=Masc|Number=Sing	7	fixed	_	En=all
 9	visuomenę	visuomenė	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	En=society
 10	integruoja	integruoti	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=integrate
@@ -3265,7 +3265,7 @@
 12	Italija	Italija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	En=Italy
 13	ir	ir	CCONJ	CC	_	14	cc	_	En=and
 14	Graikija	Graikija	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	En=Greece
-15	dėl	dėl	ADP	UH	_	17	advmod	_	En=due_to
+15	dėl	dėl	ADP	UH	ExtPos=ADV	17	advmod	_	En=due_to
 16	to	tas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	15	fixed	_	En=that
 17	nežuvo	žūti	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	9	nmod	_	En=die_out|SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	9	punct	_	En=.
@@ -3430,7 +3430,7 @@
 # newpar id = 128
 # sent_id = 128
 # text = Tuo tarpu nepriklausomybė nėra tikslas sau, o būdas užtikrinti tautos gerovę.
-1	Tuo	tuo	SCONJ	UH	_	5	advmod	_	En=meanwhile
+1	Tuo	tuo	SCONJ	UH	ExtPos=ADV	5	advmod	_	En=meanwhile
 2	tarpu	tarpu	SCONJ	UH	_	1	fixed	_	En=while
 3	nepriklausomybė	nepriklausomybė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg	5	nsubj	_	En=independence
 4	nėra	būti	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	En=be
@@ -3617,7 +3617,7 @@
 # newpar id = 135
 # sent_id = 135
 # text = Iš viso kurti fetišą, stabą iš valstybės – nepriimtina praktika, nes ji pažeidžia pirmąjį Dievo įsakymą, privalomą ir krikščioniui, ir šiaip jau mąstančiam žmogui.
-1	Iš	iš	ADP	UH	_	11	advmod	_	En=from
+1	Iš	iš	ADP	UH	ExtPos=ADV	11	advmod	_	En=from
 2	viso	visas	PRON	DT	Case=Gen|Gender=Masc|Number=Sing	1	fixed	_	En=all
 3	kurti	kurti	VERB	VB	Polarity=Pos|VerbForm=Inf|Voice=Act	11	csubj	_	En=make
 4	fetišą	fetišas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	En=fetish|SpaceAfter=No
