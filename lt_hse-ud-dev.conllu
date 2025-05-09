@@ -625,7 +625,7 @@
 # text = Laikinoji vyriausybė iš esmės nesiskiria nuo Tiso vyriausybės Slovakijoje ir Paveličiaus vyriausybės Kroatijoje, kurių nė vienas rimtas istorikas nelaiko teigiamu daiktu.
 1	Laikinoji	laikinas	ADJ	JJL	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	En=temporary
 2	vyriausybė	vyriausybė	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	En=government
-3	iš	iš	ADP	UH	_	5	advmod	_	En=from
+3	iš	iš	ADP	UH	ExtPos=ADV	5	advmod	_	En=from
 4	esmės	esmės	ADV	RB	Degree=Pos	3	fixed	_	En=essentially
 5	nesiskiria	skirtis	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	En=differ
 6	nuo	nuo	ADP	UH	_	8	case	_	En=from
