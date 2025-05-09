@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Lithuanian-HSE:
-commit 7ebf205668c8e615b8d2df62f07b08527903c750
+commit 82f9c176e265f261d9e8781ebd238594a38e02bc
+Merge: 2948c9d e838031
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:04:08 2024 +0200
 Size: counted 5356 of 5356 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.35643485565785.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,32 +15,62 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 3334 out of 5356 total words have one or more features.
+Features: 3342 out of 5356 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        456
-Udapi: found 456 bugs.
+               TOTAL        445
+Udapi: found 445 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 5356 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-dev.conllu
+[Line 41 Sent 145 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'tam tikrų' does not have the 'ExtPos' feature
+[Line 74 Sent 147 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ko gero' does not have the 'ExtPos' feature
+[Line 280 Sent 157 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ko gero' does not have the 'ExtPos' feature
+[Line 390 Sent 160 Node 52]: [L3 Warning fixed-without-extpos] Fixed expression 'taip pat' does not have the 'ExtPos' feature
+[Line 472 Sent 165 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Kad ir ką' does not have the 'ExtPos' feature
+[Line 496 Sent 165 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'nė vieno' does not have the 'ExtPos' feature
+[Line 580 Sent 168 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'anksčiau ar vėliau' does not have the 'ExtPos' feature
+[Line 641 Sent 171 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'nė vienas' does not have the 'ExtPos' feature
+[Line 779 Sent 176 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'nors ir' does not have the 'ExtPos' feature
+[Line 801 Sent 177 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'nė vienas' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 14
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-test.conllu
+[Line 48 Sent 201 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Be kita ko' does not have the 'ExtPos' feature
+[Line 287 Sent 213 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
+[Line 551 Sent lt-ru-5-p5-10 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Vis dėlto' does not have the 'ExtPos' feature
+[Line 555 Sent lt-ru-5-p5-10 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
+[Line 566 Sent lt-ru-5-p5-10 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'bet ir' does not have the 'ExtPos' feature
+[Line 998 Sent lt-ru-5-p14-29 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'iš naujo' does not have the 'ExtPos' feature
+[Line 1055 Sent lt-ru-5-p16-31 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'iki tol' does not have the 'ExtPos' feature
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-train.conllu
-[Line 2146 Sent 74 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:tokią:det --> 13:patinka:acl)
-Warnings: 1
+[Line 115 Sent lt-ru-3-p3-5 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'taip pat' does not have the 'ExtPos' feature
+[Line 337 Sent 3 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'tuo tarpu' does not have the 'ExtPos' feature
+[Line 363 Sent 4 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'be to' does not have the 'ExtPos' feature
+[Line 422 Sent 6 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'dėl to' does not have the 'ExtPos' feature
+[Line 509 Sent 11 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tuo tarpu' does not have the 'ExtPos' feature
+[Line 544 Sent 12 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'tai yra' does not have the 'ExtPos' feature
+[Line 575 Sent 14 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Be to' does not have the 'ExtPos' feature
+[Line 580 Sent 14 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
+[Line 584 Sent 14 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
+[Line 612 Sent 15 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'daug kas' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 45
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.242946856113324) = 0.062294065670083
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.148618371919343) = 0.0457287298213362
+(weight=0.307692307692308) * (score{udapi}=0.169156086631815) = 0.052048026655943
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.365108931401085) * (availability=1) * (validity=1) = 0.365108931401085
+(TOTAL score=0.370925463027044) * (availability=1) * (validity=1) = 0.370925463027044
 STARS = 2
-UD_Lithuanian-HSE	0.365108931401085	2
+UD_Lithuanian-HSE	0.370925463027044	2
