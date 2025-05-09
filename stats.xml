@@ -33,7 +33,7 @@
     <tag name="X">11</tag><!-- definitione, ex, for, him, pardoned, summa, summarum, time, w, well -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="40">
+  <feats unique="41">
     <feat name="Aspect" value="Hab" upos="AUX,VERB">8</feat><!-- būna, išbrokuodavo, nebūna, pasisakydavau, sakydavome, tikrindavo, įrašinėdavo -->
     <feat name="Aspect" value="Perf" upos="VERB">31</feat><!-- paėmus, sudužusio, žinojęs, Pradėjęs, Sakiau, atidarę, dirbusio, dirbęs, girdėję, ištraukę -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">382</feat><!-- juos, mus, tautą, ją, kurį, tą, jį, ką, man, Lietuvą -->
@@ -48,6 +48,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">44</feat><!-- vėliau, daugiau, labiau, tiksliau, blogesnis, blogiau, mažiau, sunkiau, toliau, anksčiau -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,CCONJ">657</feat><!-- tik, dar, šiandien, kitų, taip, vienas, visada, šiol, dabar, kiek -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">20</feat><!-- pirmiausia, svarbiausias, Sudėtingiausias, baisiausia, geriausiai, geriausias, greičiausiai, griežčiausiomis, lengviausia, realiausia -->
+    <feat name="ExtPos" value="ADV" upos="ADP,PRON,SCONJ">9</feat><!-- iš, dėl, Tuo, jokiu, kai -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">817</feat><!-- Lietuvos, ji, tautos, Europos, tauta, tiesa, valstybės, Rusijos, Lietuva, Rusija -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1383</feat><!-- jis, to, Strepsiado, Sokratas, Sokrato, Strepsiadas, laikais, metų, Tu-154, kuris -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,VERB">32</feat><!-- žinoma, galima, bandoma, esama, nesunku, sunku, Būtina, Kalbama, aišku, apima -->
