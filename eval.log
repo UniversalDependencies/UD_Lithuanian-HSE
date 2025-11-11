@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Lithuanian-HSE:
-commit 82f9c176e265f261d9e8781ebd238594a38e02bc
-Merge: 2948c9d e838031
+commit 100f536e88bcf1518aac413088bfd4ae0c8452e0
+Merge: ba99769 3ae406d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'lt_hse'
+Language code (from CoNLL-U file name) = 'lt'
+Found the following data files: lt_hse-ud-dev.conllu, lt_hse-ud-test.conllu, lt_hse-ud-train.conllu
 Size: counted 5356 of 5356 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.35643485565785.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,58 +23,57 @@ Features: 3342 out of 5356 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        445
-Udapi: found 445 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 5356 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-dev.conllu
-[Line 41 Sent 145 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'tam tikrų' does not have the 'ExtPos' feature
-[Line 74 Sent 147 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ko gero' does not have the 'ExtPos' feature
-[Line 280 Sent 157 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ko gero' does not have the 'ExtPos' feature
-[Line 390 Sent 160 Node 52]: [L3 Warning fixed-without-extpos] Fixed expression 'taip pat' does not have the 'ExtPos' feature
-[Line 472 Sent 165 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Kad ir ką' does not have the 'ExtPos' feature
-[Line 496 Sent 165 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'nė vieno' does not have the 'ExtPos' feature
-[Line 580 Sent 168 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'anksčiau ar vėliau' does not have the 'ExtPos' feature
-[Line 641 Sent 171 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'nė vienas' does not have the 'ExtPos' feature
-[Line 779 Sent 176 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'nors ir' does not have the 'ExtPos' feature
-[Line 801 Sent 177 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'nė vienas' does not have the 'ExtPos' feature
+[Line 18 Sent 144]: [L3 Warning pron-det-without-prontype] The word 'tai' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 33 Sent 145]: [L3 Warning pron-det-without-prontype] The word 'savo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 36 Sent 145]: [L3 Warning pron-det-without-prontype] The word 'kuris' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 41 Sent 145]: [L3 Warning pron-det-without-prontype] The word 'tam' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 41 Sent 145]: [L3 Warning fixed-without-extpos] Fixed expression 'tam tikrų' does not have the 'ExtPos' feature
+[Line 42 Sent 145]: [L3 Warning pron-det-without-prontype] The word 'tikrų' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 45 Sent 145]: [L3 Warning pron-det-without-prontype] The word 'ją' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 64 Sent 146]: [L3 Warning pron-det-without-prontype] The word 'vienų' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent 147]: [L3 Warning fixed-without-extpos] Fixed expression 'Ko gero' does not have the 'ExtPos' feature
+[Line 77 Sent 147]: [L3 Warning pron-det-without-prontype] The word 'tas' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 14
+Warnings: 112
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-test.conllu
-[Line 48 Sent 201 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Be kita ko' does not have the 'ExtPos' feature
-[Line 287 Sent 213 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
-[Line 551 Sent lt-ru-5-p5-10 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Vis dėlto' does not have the 'ExtPos' feature
-[Line 555 Sent lt-ru-5-p5-10 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
-[Line 566 Sent lt-ru-5-p5-10 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'bet ir' does not have the 'ExtPos' feature
-[Line 998 Sent lt-ru-5-p14-29 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'iš naujo' does not have the 'ExtPos' feature
-[Line 1055 Sent lt-ru-5-p16-31 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'iki tol' does not have the 'ExtPos' feature
-Warnings: 7
+[Line 12 Sent 199]: [L3 Warning pron-det-without-prontype] The word 'mūsų' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 17 Sent 199]: [L3 Warning pron-det-without-prontype] The word 'mūsų' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 21 Sent 199]: [L3 Warning pron-det-without-prontype] The word 'nieko' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 22 Sent 199]: [L3 Warning pron-det-without-prontype] The word 'kito' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 32 Sent 200]: [L3 Warning pron-det-without-prontype] The word 'savo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 40 Sent 200]: [L3 Warning pron-det-without-prontype] The word 'tokiai' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 48 Sent 201]: [L3 Warning fixed-without-extpos] Fixed expression 'Be kita ko' does not have the 'ExtPos' feature
+[Line 50 Sent 201]: [L3 Warning pron-det-without-prontype] The word 'ko' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 80 Sent 203]: [L3 Warning pron-det-without-prontype] The word 'Kas' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 81 Sent 203]: [L3 Warning pron-det-without-prontype] The word 'mums' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 69
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lt --max-err=10 UD_Lithuanian-HSE/lt_hse-ud-train.conllu
-[Line 115 Sent lt-ru-3-p3-5 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'taip pat' does not have the 'ExtPos' feature
-[Line 337 Sent 3 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'tuo tarpu' does not have the 'ExtPos' feature
-[Line 363 Sent 4 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'be to' does not have the 'ExtPos' feature
-[Line 422 Sent 6 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'dėl to' does not have the 'ExtPos' feature
-[Line 509 Sent 11 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tuo tarpu' does not have the 'ExtPos' feature
-[Line 544 Sent 12 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'tai yra' does not have the 'ExtPos' feature
-[Line 575 Sent 14 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Be to' does not have the 'ExtPos' feature
-[Line 580 Sent 14 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
-[Line 584 Sent 14 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'ne tik' does not have the 'ExtPos' feature
-[Line 612 Sent 15 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'daug kas' does not have the 'ExtPos' feature
+[Line 33 Sent lt-ru-3-p2-3]: [L3 Warning pron-det-without-prontype] The word 'Šis' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 35 Sent lt-ru-3-p2-3]: [L3 Warning pron-det-without-prontype] The word 'jai' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 61 Sent lt-ru-3-p2-3]: [L3 Warning pron-det-without-prontype] The word 'visus' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 66 Sent lt-ru-3-p2-3]: [L3 Warning pron-det-without-prontype] The word 'jų' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 88 Sent lt-ru-3-p2-4]: [L3 Warning pron-det-without-prontype] The word 'jo' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 101 Sent lt-ru-3-p2-4]: [L3 Warning pron-det-without-prontype] The word 'jos' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 115 Sent lt-ru-3-p3-5]: [L3 Warning fixed-without-extpos] Fixed expression 'taip pat' does not have the 'ExtPos' feature
+[Line 130 Sent lt-ru-3-p4-6]: [L3 Warning pron-det-without-prontype] The word 'Ši' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 264 Sent 0]: [L3 Warning pron-det-without-prontype] The word 'AŠ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 297 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'ji' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 45
+Warnings: 306
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.242946856113324) = 0.062294065670083
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.169156086631815) = 0.052048026655943
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.370925463027044) * (availability=1) * (validity=1) = 0.370925463027044
-STARS = 2
-UD_Lithuanian-HSE	0.370925463027044	2
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.242946856113324) = 0.0899803170790088
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.460600741424923) * (availability=1) * (validity=1) = 0.460600741424923
+STARS = 2.5
+UD_Lithuanian-HSE	0.460600741424923	2.5
