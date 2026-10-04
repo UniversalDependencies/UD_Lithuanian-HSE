@@ -286,7 +286,7 @@
 9	priešiškumą	priešiškumas	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	En=hostility|SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	12	punct	_	En=,
 11	negu	negu	SCONJ	UH	_	12	case	_	En=than
-12	anuomet	anuomet	ADV	RB	Degree=Pos	9	obl	_	En=those_times|SpaceAfter=No
+12	anuomet	anuomet	ADV	RB	Degree=Pos	9	advmod	_	En=those_times|SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	8	punct	_	En=.
 
 # newpar id = 158
